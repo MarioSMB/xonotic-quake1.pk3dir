@@ -24,7 +24,7 @@ death sound/player/toonquake/player/death 4
 drown sound/player/toonquake/player/drown 0
 fall sound/player/toonquake/player/fall 2
 falling sound/player/toonquake/player/falling 0
-gasp sound/player/toonquake/player/gasp 0
+gasp sound/player/toonquake/player/_gasp 2
 jump sound/player/toonquake/player/jump 0
 pain25 sound/player/toonquake/player/pain25 2
 pain50 sound/player/toonquake/player/pain50 2
