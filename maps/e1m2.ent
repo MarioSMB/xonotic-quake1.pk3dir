@@ -469,6 +469,7 @@
 {
 "spawnflags" "257"
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "1646 -698 360"
 "angle" "180"
 "targetname" "t89"
@@ -522,9 +523,10 @@
 {
 "spawnflags" "1"
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "262 -458 320"
 "angle" "0"
-"target" "t96"
+"target2" "t96"
 }
 {
 "classname" "item_health_medium"
@@ -1310,9 +1312,10 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "806 206 320"
 "angle" "90"
-"target" "t82"
+"target2" "t82"
 "spawnflags" "256"
 }
 {
@@ -1419,15 +1422,17 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "390 -970 432"
 "angle" "0"
-"target" "t94"
+"target2" "t94"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "566 -970 432"
 "angle" "270"
-"target" "t92"
+"target2" "t92"
 }
 {
 "classname" "path_corner"
@@ -1810,10 +1815,11 @@
 }
 {
 "spawnflags" "257"
-"target" "t111"
+"target2" "t111"
 "angle" "180"
 "origin" "758 -1218 432"
 "classname" "monster_army"
+"monster_moveflags" "2"
 }
 {
 "spawnflags" "768"
@@ -2585,9 +2591,10 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "1104 424 316"
 "angle" "270"
-"target" "t127"
+"target2" "t127"
 }
 {
 "targetname" "t128"
@@ -2605,6 +2612,7 @@
 "angle" "0"
 "origin" "552 -128 320"
 "classname" "monster_army"
+"monster_moveflags" "2"
 }
 {
 "target" "t129"
@@ -2711,6 +2719,7 @@
 "classname" "monster_army"
 "origin" "1592 1296 200"
 "angle" "270"
+"monster_moveflags" "4"
 }
 {
 "spawnflags" "768"
@@ -2736,9 +2745,10 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "1392 352 320"
 "angle" "270"
-"target" "t130"
+"target2" "t130"
 "spawnflags" "768"
 }
 {
@@ -2755,10 +2765,11 @@
 }
 {
 "spawnflags" "1"
-"target" "t132"
+"target2" "t132"
 "angle" "90"
 "origin" "472 -456 320"
 "classname" "monster_army"
+"monster_moveflags" "2"
 }
 {
 "spawnflags" "1"
@@ -2766,6 +2777,7 @@
 "angle" "135"
 "origin" "1712 -784 376"
 "classname" "monster_army"
+"monster_moveflags" "4"
 }
 {
 "target" "t135"
@@ -2782,23 +2794,26 @@
 "origin" "400 -1248 416"
 }
 {
-"target" "t134"
+"target2" "t134"
 "spawnflags" "257"
 "angle" "90"
 "origin" "408 -1208 432"
 "classname" "monster_army"
+"monster_moveflags" "2"
 }
 {
 "targetname" "t101"
 "angle" "90"
 "origin" "-288 -24 488"
 "classname" "monster_army"
+"monster_moveflags" "2"
 "spawnflags" "768"
 }
 {
 "spawnflags" "768"
 "targetname" "t101"
 "classname" "monster_army"
+"monster_moveflags" "2"
 "origin" "136 -128 488"
 "angle" "90"
 }
@@ -2976,6 +2991,7 @@
 "angle" "270"
 "origin" "1408 1296 200"
 "classname" "monster_army"
+"monster_moveflags" "4"
 }
 {
 "classname" "item_shells"
