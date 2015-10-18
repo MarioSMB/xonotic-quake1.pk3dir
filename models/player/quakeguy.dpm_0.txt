@@ -1,0 +1,14 @@
+name Quake
+species human
+sex Male
+weight 95
+age 29
+bone_upperbody Bip01 Spine2
+bone_aim0 0.25 Bip01 Spine2
+bone_aim1 0.4 Bip01 Spine3
+bone_aim2 0.2 Bip01 L UpperArm
+bone_aim3 0.35 Bip01 R Hand
+bone_weapon Bip01 R Hand
+fixbone 1
+
+Professional slipgater

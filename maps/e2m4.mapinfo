@@ -1,0 +1,26 @@
+title Quake 1: Episode 2, Level 4
+description the Ebon Fortress
+author ID Software
+hidden
+noautomaplist
+cdtrack track004
+has weapons
+gametype dm timelimit=0 pointlimit=0
+
+settemp_for_type all g_physics_clientselect 1
+settemp_for_type all g_physics_clientselect_options "quake"
+settemp_for_type all g_physics_clientselect_default quake
+settemp_for_type all sv_stepheight 22
+
+settemp_for_type all sv_player_maxs "16 16 32"
+settemp_for_type all sv_player_viewoffset "0 0 22"
+settemp_for_type all sv_player_crouch_viewoffset "0 0 16"
+settemp_for_type all sv_player_crouch_maxs "16 16 16"
+settemp_for_type all sv_player_scale 0.75
+
+settemp_for_type all sv_defaultcharacter 1
+settemp_for_type all sv_defaultplayermodel models/player/quakeguy.dpm
+
+
+// Copyright for original BSP files goes to ID Software, please don't sue!
+// TODO: Make the GPL'd map sources work

@@ -1,0 +1,8 @@
+//TAG: spawn
+//death sound/monsters/spawn/death 0
+sight sound/monsters/spawn/sight 0
+//ranged sound/monsters/spawn/ranged 0
+//melee sound/monsters/spawn/melee 0
+pain sound/monsters/spawn/pain 2
+//spawn sound/monsters/spawn/spawn 0
+idle sound/monsters/spawn/idle 3
