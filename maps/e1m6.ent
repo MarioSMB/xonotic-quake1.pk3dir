@@ -95,7 +95,7 @@
 }
 {
 "target" "t98"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "item_key2"
 "origin" "224 120 56"
 "sounds" "2"
@@ -302,7 +302,7 @@
 }
 {
 "style" "33"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "item_key1"
 "origin" "-696 1280 -232"
 "sounds" "2"
@@ -861,43 +861,43 @@
 "origin" "-480 1432 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-480 1280 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-480 1128 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-336 1432 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-336 1120 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-192 1128 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-192 1432 -344"
 "classname" "misc_fireball"
 "speed" "1000"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "wait" "-1"
@@ -1003,7 +1003,7 @@
 {
 "sounds" "3"
 "targetname" "t83"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_door"
 "angle" "-1"
 "wait" "-1"
@@ -1422,28 +1422,28 @@
 "angle" "-1"
 "origin" "288 408 -40"
 "classname" "misc_fireball"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "speed" "400"
 "angle" "-1"
 "origin" "288 240 -40"
 "classname" "misc_fireball"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "speed" "400"
 "angle" "-1"
 "origin" "160 408 -40"
 "classname" "misc_fireball"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "speed" "400"
 "angle" "-1"
 "origin" "160 232 -40"
 "classname" "misc_fireball"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "light" "100"
@@ -1497,7 +1497,7 @@
 "model" "*54"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*55"
 }
@@ -1589,7 +1589,7 @@
 "wait" "-1"
 "angle" "-2"
 "classname" "func_button"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*59"
 }
 {
@@ -1700,25 +1700,25 @@
 "speed" "400"
 "origin" "-376 568 -120"
 "classname" "misc_fireball"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "misc_fireball"
 "origin" "-304 480 -120"
 "speed" "400"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "speed" "400"
 "origin" "-384 256 -120"
 "classname" "misc_fireball"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "misc_fireball"
 "origin" "-288 224 -120"
 "speed" "400"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "angle" "180"
@@ -1852,12 +1852,12 @@
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*69"
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*70"
 }
 {
@@ -1977,7 +1977,7 @@
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*75"
 }
 {
@@ -2415,7 +2415,7 @@
 "model" "*97"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_door"
 "targetname" "t34"
 "angle" "-2"
@@ -2609,7 +2609,7 @@
 {
 "classname" "weapon_rocketlauncher"
 "origin" "488 1456 0"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "angle" "270"

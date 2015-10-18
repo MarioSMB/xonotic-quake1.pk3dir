@@ -336,7 +336,7 @@
 "model" "*2"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "angle" "90"
 "target" "t8"
 "classname" "func_button"
@@ -438,7 +438,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "wait" "-1"
 "targetname" "t3"
@@ -447,7 +447,7 @@
 "model" "*5"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "wait" "-1"
 "angle" "270"
 "classname" "func_door"
@@ -455,7 +455,7 @@
 "model" "*6"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t3"
 "wait" "-1"
 "classname" "func_button"
@@ -685,7 +685,7 @@
 "model" "*9"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "angle" "270"
 "target" "t5"
 "wait" "-1"
@@ -710,7 +710,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "targetname" "t5"
 "wait" "-1"
@@ -765,7 +765,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "wait" "-1"
 "angle" "-2"
@@ -812,7 +812,7 @@
 "light" "200"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "classname" "item_key2"
 "origin" "-16 1456 -152"
@@ -842,7 +842,7 @@
 "speed" "400"
 "wait" "-1"
 "sounds" "4"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*16"
 }
 {
@@ -1170,7 +1170,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_button"
 "wait" "-1"
 "target" "t7"
@@ -1703,7 +1703,7 @@
 "classname" "monster_ogre"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "48 1456 -192"
 "classname" "weapon_grenadelauncher"
 }
@@ -1823,7 +1823,7 @@
 "angle" "270"
 "targetname" "t31"
 "wait" "-1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*32"
 }
 {
@@ -2072,12 +2072,12 @@
 "angle" "0"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*44"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*45"
 }
@@ -2167,12 +2167,12 @@
 "angle" "60"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*51"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*52"
 }
@@ -2500,7 +2500,7 @@
 {
 "classname" "item_spikes"
 "origin" "-16 240 -160"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "weapon_supernailgun"
@@ -2765,7 +2765,7 @@
 "light" "200"
 "classname" "light_torch_small_walltorch"
 "origin" "194 -214 196"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "light" "200"

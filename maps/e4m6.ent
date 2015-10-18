@@ -877,7 +877,7 @@
 "sounds" "2"
 "origin" "-328 -1552 200"
 "classname" "item_key2"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "light" "200"
@@ -1577,7 +1577,7 @@
 {
 "origin" "256 -160 160"
 "classname" "item_key1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "spawnflags" "1"
@@ -1741,7 +1741,7 @@
 "classname" "monster_tarbaby"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "targetname" "t182"
 "wait" "-1"
 "lip" "-160"
@@ -1861,7 +1861,7 @@
 "origin" "456 0 320"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "targetname" "t189"
 "lip" "64"
@@ -1914,7 +1914,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "24 1360 192"
 "classname" "item_health"
 }
@@ -1924,7 +1924,7 @@
 "classname" "item_spikes"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "speed" "50"
 "lip" "-8"
 "sounds" "3"
@@ -2014,14 +2014,14 @@
 "targetname" "t193"
 "angle" "270"
 "classname" "func_door"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*61"
 }
 {
 "wait" "-1"
 "angle" "90"
 "classname" "func_door"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*62"
 }
 {
@@ -2357,7 +2357,7 @@
 "target" "t162"
 "health" "50"
 "classname" "trigger_once"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*73"
 }
 {
@@ -2499,7 +2499,7 @@
 "targetname" "t213"
 "message" "An unholy altar! Shoot it repeatedly!"
 "classname" "trigger_multiple"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*78"
 }
 {
@@ -2508,7 +2508,7 @@
 "health" "50"
 "message" "You have defiled the altar!"
 "classname" "trigger_once"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*79"
 }
 {
@@ -2517,7 +2517,7 @@
 "target" "t209"
 "message" "Shoot the unholy altar \n to open this door."
 "classname" "trigger_multiple"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*80"
 }
 {
@@ -2609,7 +2609,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "trigger_multiple"
 "message" "Are you sure you want to exit now? \n You left something important behind."
 "wait" "2"

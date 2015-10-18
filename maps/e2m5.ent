@@ -914,7 +914,7 @@
 }
 {
 "style" "32"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_button"
 "angle" "90"
 "target" "t2"
@@ -983,7 +983,7 @@
 "classname" "qlight"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "angle" "180"
 "height" "300"
 "speed" "150"
@@ -1006,7 +1006,7 @@
 "light" "200"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_button"
 "angle" "180"
 "target" "t3"
@@ -1014,7 +1014,7 @@
 "model" "*6"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_door"
 "angle" "90"
 "targetname" "t3"
@@ -1038,7 +1038,7 @@
 "targetname" "t3"
 "speed" "300"
 "sounds" "1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*8"
 }
 {
@@ -1490,7 +1490,7 @@
 "wait" "-1"
 "target" "t12"
 "health" "1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*11"
 }
 {
@@ -1547,7 +1547,7 @@
 "dmg" "20"
 "classname" "func_train"
 "sounds" "1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*14"
 }
 {
@@ -1704,7 +1704,7 @@
 "target" "t22"
 "dmg" "20"
 "speed" "70"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "model" "*21"
 }
@@ -1725,7 +1725,7 @@
 "angle" "270"
 "target" "t20"
 "wait" "-1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*22"
 }
 {
@@ -1782,7 +1782,7 @@
 "target" "t23"
 "speed" "70"
 "targetname" "t32"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "model" "*23"
 }
@@ -1838,7 +1838,7 @@
 "target" "t26"
 "speed" "70"
 "targetname" "t32"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "model" "*25"
 }
@@ -1936,7 +1936,7 @@
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*27"
 }
 {
@@ -1959,7 +1959,7 @@
 {
 "classname" "func_door"
 "angle" "-1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "message" "These bars open elsewhere..."
 "targetname" "t30"
 "sounds" "4"
@@ -1972,7 +1972,7 @@
 "targetname" "t30"
 "wait" "-1"
 "sounds" "4"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*30"
 }
 {
@@ -2567,7 +2567,7 @@
 {
 "classname" "item_artifact_super_damage"
 "origin" "-40 2728 -224"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_rockets"
@@ -2823,7 +2823,7 @@
 "classname" "item_key2"
 "origin" "352 2304 224"
 "sounds" "1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "lip" "-2"
@@ -3223,7 +3223,7 @@
 {
 "classname" "weapon_lightning"
 "origin" "-672 1392 -104"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_cells"
@@ -3271,12 +3271,12 @@
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*59"
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*60"
 }
 {

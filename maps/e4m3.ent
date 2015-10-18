@@ -160,7 +160,7 @@
 }
 {
 "model" "*2"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "classname" "func_door"
 "angle" "90"
@@ -168,7 +168,7 @@
 }
 {
 "model" "*3"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "classname" "func_door"
 "angle" "270"
@@ -178,7 +178,7 @@
 }
 {
 "model" "*4"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "wait" "-1"
 "targetname" "t93"
 "classname" "func_door"
@@ -186,7 +186,7 @@
 }
 {
 "model" "*5"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "wait" "-1"
 "classname" "func_door"
@@ -194,7 +194,7 @@
 }
 {
 "model" "*6"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "classname" "func_door"
 "angle" "180"
@@ -202,7 +202,7 @@
 }
 {
 "model" "*7"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "wait" "-1"
 "targetname" "t138"
@@ -212,7 +212,7 @@
 }
 {
 "model" "*8"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "wait" "-1"
 "classname" "func_door"
@@ -1438,7 +1438,7 @@
 }
 {
 "model" "*52"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "2"
 "lip" "-8"
 "angle" "-2"
@@ -1447,7 +1447,7 @@
 }
 {
 "model" "*53"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "2"
 "wait" "-1"
 "classname" "func_door"
@@ -1488,7 +1488,7 @@
 }
 {
 "model" "*54"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "2"
 "targetname" "t168"
 "wait" "-1"
@@ -1584,7 +1584,7 @@
 }
 {
 "model" "*61"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "2"
 "targetname" "t169"
 "lip" "-8"
@@ -1606,7 +1606,7 @@
 "sounds" "2"
 "origin" "1344 -1344 160"
 "classname" "item_key1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "angle" "180"
@@ -1706,14 +1706,14 @@
 }
 {
 "model" "*68"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t173"
 "classname" "trigger_once"
 "style" "32"
 }
 {
 "model" "*69"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "targetname" "t173"
 "wait" "-1"
@@ -1794,7 +1794,7 @@
 "sounds" "2"
 "origin" "1856 -40 248"
 "classname" "item_key2"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "targetname" "t178"
@@ -2347,7 +2347,7 @@
 "spawnflags" "256"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "512 128 24"
 "classname" "item_artifact_super_damage"
 }
@@ -2629,7 +2629,7 @@
 }
 {
 "model" "*106"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "angle" "180"
 "targetname" "t233"
 "message" "Are you sure you want to leave now? \n You left something important behind."

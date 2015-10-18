@@ -945,7 +945,7 @@
 "wait" "-1"
 "sounds" "3"
 "targetname" "t9"
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "model" "*39"
 }
 {

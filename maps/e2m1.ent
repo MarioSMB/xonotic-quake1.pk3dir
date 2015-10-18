@@ -962,7 +962,7 @@
 "classname" "item_shells"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "1088 1880 0"
 "classname" "item_armor2"
 }
@@ -1011,7 +1011,7 @@
 "origin" "1256 664 -32"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "3"
 "classname" "item_key2"
 "origin" "1848 1320 72"
@@ -1036,12 +1036,12 @@
 "origin" "1056 352 -256"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "1752 1800 -80"
 "classname" "item_shells"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "560 200 -96"
 "classname" "item_shells"
 }
@@ -1257,7 +1257,7 @@
 "light" "150"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "wait" "-1"
 "classname" "func_button"
 "target" "t20"
@@ -1627,11 +1627,11 @@
 {
 "target" "t44"
 "classname" "trigger_once"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*30"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "2"
 "classname" "func_door"
 "angle" "-1"
@@ -1656,7 +1656,7 @@
 "target" "t46"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_train"
 "targetname" "t47"
 "target" "t50"
@@ -1737,7 +1737,7 @@
 "angle" "-1"
 "targetname" "t52"
 "wait" "-1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*34"
 }
 {
@@ -1746,7 +1746,7 @@
 "angle" "-1"
 "targetname" "t52"
 "wait" "-1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*35"
 }
 {
@@ -1800,17 +1800,17 @@
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*41"
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*42"
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*43"
 }
 {
@@ -2104,7 +2104,7 @@
 }
 {
 "target" "t60"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "trigger_once"
 "model" "*56"
 }
@@ -2146,7 +2146,7 @@
 "light" "200"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*59"
 }
@@ -2273,7 +2273,7 @@
 "angle" "90"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "trigger_once"
 "target" "t62"
 "model" "*63"
@@ -2284,13 +2284,13 @@
 "light" "200"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t63"
 "classname" "trigger_once"
 "model" "*64"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "speed" "600"
 "targetname" "t63"
 "wait" "-1"
@@ -2400,7 +2400,7 @@
 "model" "*71"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "trigger_once"
 "target" "t67"
 "model" "*72"

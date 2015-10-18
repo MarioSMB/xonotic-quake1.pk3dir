@@ -1361,7 +1361,7 @@
 "classname" "item_health"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "704 1344 936"
 "classname" "item_key1"
 "sounds" "1"

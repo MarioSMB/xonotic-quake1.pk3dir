@@ -499,7 +499,7 @@
 "classname" "qlight"
 }
 {
-////"spawnflags" "2048"
+//////"spawnflags" "2048"
 "origin" "112 2352 16"
 "classname" "weapon_qnailgun"
 }
@@ -750,7 +750,7 @@
 "model" "*17"
 }
 {
-////"spawnflags" "2048"
+//////"spawnflags" "2048"
 "classname" "trigger_once"
 "spawnflags" "16384"
 "target" "t5"
@@ -1114,7 +1114,7 @@
 "health" "25"
 }
 {
-////"spawnflags" "2048"
+//////"spawnflags" "2048"
 "target" "t9"
 "wait" "-1"
 "angle" "0"
@@ -1122,7 +1122,7 @@
 "model" "*25"
 }
 {
-////"spawnflags" "2048"
+//////"spawnflags" "2048"
 "target" "t9"
 "wait" "-1"
 "angle" "90"
@@ -1130,7 +1130,7 @@
 "model" "*26"
 }
 {
-////"spawnflags" "2048"
+//////"spawnflags" "2048"
 "target" "t9"
 "wait" "-1"
 "angle" "270"

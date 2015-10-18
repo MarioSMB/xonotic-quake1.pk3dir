@@ -436,13 +436,13 @@
 {
 "origin" "-168 -432 -48"
 "classname" "item_health"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t203"
 }
 {
 "origin" "-88 -432 -48"
 "classname" "item_health"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t203"
 }
 {
@@ -1350,7 +1350,7 @@
 "classname" "item_key1"
 "origin" "1072 752 40"
 "targetname" "t175"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t205"
 }
 {
@@ -1964,13 +1964,13 @@
 {
 "classname" "item_health"
 "origin" "-104 -392 -48"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t203"
 }
 {
 "origin" "-152 -392 -48"
 "classname" "item_health"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "target" "t203"
 }
 {
@@ -2626,7 +2626,7 @@
 {
 "classname" "weapon_grenadelauncher"
 "origin" "-776 1424 136"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "weapon_supernailgun"
@@ -2714,7 +2714,7 @@
 "wait" "2"
 "message" "Are you sure you want to exit now? \n You left something important behind."
 "targetname" "t201"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*44"
 }
 {

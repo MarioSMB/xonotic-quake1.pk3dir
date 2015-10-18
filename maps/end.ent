@@ -570,7 +570,7 @@
 "target" "t13"
 }
 {
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "origin" "-520 696 72"
 "classname" "misc_teleporttrain"
 "target" "t32"
@@ -579,7 +579,7 @@
 "speed" "200"
 }
 {
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "classname" "trigger_once"
 "target" "t33"
 "model" "*4"
@@ -625,7 +625,7 @@
 "sounds" "4"
 "angle" "180"
 "classname" "func_door"
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "model" "*5"
 }
 {
@@ -635,7 +635,7 @@
 "sounds" "4"
 "angle" "-2"
 "classname" "func_door"
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "model" "*6"
 }
 {
@@ -681,12 +681,12 @@
 {
 "origin" "-352 1024 72"
 "classname" "weapon_rocketlauncher"
-"spawnflags" "2048"
+//"spawnflags" "2048"
 }
 {
 "origin" "-96 1072 72"
 "classname" "weapon_supernailgun"
-"spawnflags" "2048"
+//"spawnflags" "2048"
 }
 {
 "origin" "-96 1400 16"
@@ -695,7 +695,7 @@
 {
 "origin" "-368 1456 16"
 "classname" "weapon_grenadelauncher"
-"spawnflags" "2048"
+//"spawnflags" "2048"
 }
 {
 "origin" "-632 16 0"
@@ -1027,7 +1027,7 @@
 "model" "*27"
 }
 {
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "wait" "-1"
 "speed" "200"
 "sounds" "1"
@@ -1312,7 +1312,7 @@
 "classname" "info_player_deathmatch"
 }
 {
-"spawnflags" "2048"
+//"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*44"
 }

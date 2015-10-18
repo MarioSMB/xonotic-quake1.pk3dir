@@ -673,7 +673,7 @@
 {
 "classname" "trigger_multiple"
 "target" "t33"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*20"
 }
 {
@@ -685,7 +685,7 @@
 {
 "classname" "trigger_multiple"
 "target" "t33"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*21"
 }
 {
@@ -1453,7 +1453,7 @@
 "lip" "-104"
 "targetname" "t23"
 "speed" "300"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*37"
 }
 {
@@ -1556,14 +1556,14 @@
 "origin" "1232 1120 96"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "weapon_supernailgun"
 "origin" "-32 -896 64"
 }
 {
 "classname" "weapon_lightning"
 "origin" "-1168 -1600 -400"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "light_flame_large_yellow"
@@ -1681,17 +1681,17 @@
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*43"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*44"
 }
 {
 "classname" "func_wall"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*45"
 }
 {
@@ -2117,7 +2117,7 @@
 "classname" "item_key2"
 "origin" "2464 -224 56"
 "sounds" "2"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "func_door"
@@ -2570,7 +2570,7 @@
 "wait" "2"
 "angle" "90"
 "classname" "trigger_multiple"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*83"
 }
 {

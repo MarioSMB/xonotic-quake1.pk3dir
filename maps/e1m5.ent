@@ -904,7 +904,7 @@
 "classname" "item_key2"
 "origin" "704 1688 48"
 "sounds" "1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "func_door"
@@ -1609,7 +1609,7 @@
 {
 "classname" "item_health"
 "origin" "-808 1648 324"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_shells"
@@ -1624,7 +1624,7 @@
 {
 "classname" "item_rockets"
 "origin" "-120 1280 -44"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "spawnflags" "1"
@@ -2037,7 +2037,7 @@
 "origin" "-776 1912 328"
 "classname" "item_key1"
 "sounds" "1"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "light" "150"
@@ -2152,7 +2152,7 @@
 {
 "origin" "224 2408 244"
 "classname" "item_health"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-824 2232 300"
@@ -2831,7 +2831,7 @@
 {
 "classname" "item_rockets"
 "origin" "280 2664 404"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_spikes"
@@ -2849,14 +2849,14 @@
 "spawnflags" "3584"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "416 1808 12"
 "classname" "item_spikes"
 }
 {
 "classname" "item_spikes"
 "origin" "416 1760 12"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_armor1"
@@ -2917,7 +2917,7 @@
 {
 "classname" "item_shells"
 "origin" "-296 1600 -48"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "origin" "-560 1424 128"

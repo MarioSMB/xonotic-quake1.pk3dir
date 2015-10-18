@@ -1248,7 +1248,7 @@
 "model" "*46"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "classname" "item_key2"
 "origin" "-976 -360 -336"
@@ -1899,7 +1899,7 @@
 {
 "classname" "weapon_supershotgun"
 "origin" "184 -1432 -56"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "spawnflags" "1024"
@@ -1922,7 +1922,7 @@
 {
 "classname" "item_health"
 "origin" "-24 -1272 80"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_spikes"
@@ -2046,7 +2046,7 @@
 {
 "classname" "item_shells"
 "origin" "-576 -24 -96"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "item_shells"
@@ -2361,7 +2361,7 @@
 {
 "classname" "item_shells"
 "origin" "-200 -216 -96"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "classname" "monster_qzombie"
@@ -3099,7 +3099,7 @@
 {
 "classname" "item_health"
 "origin" "1064 464 540"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 }
 {
 "targetname" "t171"

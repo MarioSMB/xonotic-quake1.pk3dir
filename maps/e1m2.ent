@@ -652,7 +652,7 @@
 }
 {
 "target" "t122"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "sounds" "1"
 "itemkeys" "2"
 "classname" "item_key"
@@ -2679,7 +2679,7 @@
 "wait" "-1"
 "targetname" "t122"
 "speed" "35"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*49"
 }
 {
@@ -2687,7 +2687,7 @@
 "angle" "0"
 "wait" "-1"
 "speed" "30"
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "model" "*50"
 }
 {
@@ -2822,7 +2822,7 @@
 "classname" "item_rockets"
 }
 {
-//"spawnflags" "2048"
+////"spawnflags" "2048"
 "origin" "-240 -8 464"
 "classname" "item_spikes"
 "item_pickupsound" "quake_weapons/lock4.wav"
