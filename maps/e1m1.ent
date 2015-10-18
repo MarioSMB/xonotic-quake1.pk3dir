@@ -507,7 +507,7 @@
 {
 ////"spawnflags" "2048"
 "origin" "112 2352 16"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "sounds" "3"
@@ -1298,7 +1298,7 @@
 {
 "spawnflags" "768"
 "origin" "480 576 0"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "spawnflags" "1793"
