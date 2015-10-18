@@ -1,0 +1,8 @@
+//TAG: soldier
+death sound/monsters/soldier/death 0
+sight sound/monsters/soldier/sight 0
+ranged sound/monsters/soldier/sattck 0
+melee sound/monsters/soldier/sattck 0
+pain sound/monsters/soldier/pain 2
+//spawn sound/monsters/soldier/spawn 0
+idle sound/monsters/soldier/idle 2

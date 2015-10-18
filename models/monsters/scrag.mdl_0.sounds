@@ -1,0 +1,8 @@
+//TAG: scrag
+death sound/monsters/scrag/death 0
+sight sound/monsters/scrag/sight 0
+ranged sound/monsters/scrag/ranged 0
+melee sound/monsters/scrag/ranged 0
+pain sound/monsters/scrag/pain 0
+//spawn sound/monsters/scrag/spawn 0
+idle sound/monsters/scrag/idle 2

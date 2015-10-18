@@ -111,12 +111,6 @@
 "model" "models/quake_items/armor_0.mdl"
 }
 {
-"angle" "180"
-"spawnflags" "768"
-"origin" "616 72 40"
-"classname" "monster_army"
-}
-{
 "light" "250"
 "origin" "0 576 120"
 "classname" "qlight"
@@ -522,6 +516,7 @@
 "sounds" "3"
 "target" "t3"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*11"
 }
 {
@@ -532,6 +527,8 @@
 "angle" "180"
 "origin" "248 2392 40"
 "classname" "monster_army"
+"monster_moveflags" "4"
+"spawnflags" "4"
 }
 {
 "origin" "272 2352 64"
@@ -545,6 +542,7 @@
 "sounds" "3"
 "target" "t3"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*12"
 }
 {
@@ -737,6 +735,7 @@
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "t4"
 "health" "1"
 "model" "*16"
@@ -753,6 +752,7 @@
 {
 ////"spawnflags" "2048"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "target" "t5"
 "model" "*18"
 }
@@ -1002,6 +1002,7 @@
 {
 "target" "t8"
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "model" "*24"
 }
 {
@@ -1060,16 +1061,6 @@
 "pickup_anyway" "1"
 }
 {
-"spawnflags" "768"
-"origin" "144 2352 16"
-"classname" "weapon_rocketlauncher"
-}
-{
-"spawnflags" "768"
-"origin" "1216 1040 -432"
-"classname" "weapon_grenadelauncher"
-}
-{
 "spawnflags" "1793"
 "origin" "1392 1024 -432"
 "classname" "item_rockets"
@@ -1082,16 +1073,6 @@
 "targetname" "t6"
 "origin" "-32 1800 -56"
 "classname" "misc_teleporter_dest"
-}
-{
-"spawnflags" "768"
-"origin" "832 2448 -368"
-"classname" "weapon_qsupernailgun"
-}
-{
-"spawnflags" "768"
-"origin" "128 1216 -208"
-"classname" "weapon_supershotgun"
 }
 {
 "origin" "296 2136 -192"
@@ -1183,6 +1164,7 @@
 "sounds" "3"
 "target" "t11"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*30"
 }
 {
@@ -1190,6 +1172,7 @@
 "sounds" "3"
 "target" "t12"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*31"
 }
 {
@@ -1197,6 +1180,7 @@
 "sounds" "3"
 "target" "t13"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*32"
 }
 {
@@ -1204,6 +1188,7 @@
 "sounds" "3"
 "target" "t14"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*33"
 }
 {
@@ -1290,15 +1275,10 @@
 "model" "*38"
 }
 {
-////"spawnflags" "2048"
 "target" "t15"
 "classname" "trigger_once"
+"spawnflags" "16384"
 "model" "*39"
-}
-{
-"spawnflags" "768"
-"origin" "480 576 0"
-"classname" "weapon_qnailgun"
 }
 {
 "spawnflags" "1793"
@@ -1348,15 +1328,6 @@
 "pickup_anyway" "-1"
 }
 {
-"spawnflags" "768"
-"origin" "-96 2456 16"
-"classname" "item_shells"
-"item_pickupsound" "quake_weapons/lock4.wav"
-"model" "models/quake_items/b_shell0.bsp"
-"pickup_anyway" "-1"
-"ammo_shells" "20"
-}
-{
 "classname" "item_rockets"
 "origin" "-104 2216 16"
 "spawnflags" "1793"
@@ -1372,37 +1343,23 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "0 576 24"
 "angle" "0"
-"spawnflags" "256"
+"spawnflags" "260"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "8 1520 -200"
 "angle" "270"
+"spawnflags" "4"
 }
 {
 "classname" "monster_dog"
 "origin" "88 1520 -200"
 "angle" "270"
-}
-{
-"classname" "monster_army"
-"origin" "224 1552 -200"
-"angle" "270"
-"spawnflags" "768"
-}
-{
-"spawnflags" "768"
-"angle" "270"
-"origin" "-8 936 -200"
-"classname" "monster_army"
-}
-{
-"classname" "monster_army"
-"origin" "648 736 104"
-"spawnflags" "768"
-"angle" "180"
+"spawnflags" "4"
 }
 {
 "classname" "item_artifact_envirosuit"
@@ -1434,8 +1391,9 @@
 "pickup_anyway" "1"
 }
 {
-"spawnflags" "1"
+"spawnflags" "5"
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "1312 936 -248"
 "angle" "90"
 }
@@ -1446,40 +1404,31 @@
 "spawnflags" "257"
 }
 {
-"spawnflags" "257"
+"spawnflags" "261"
 "angle" "90"
 "origin" "1392 928 -248"
 "classname" "monster_army"
+"monster_moveflags" "4"
 }
 {
 "classname" "monster_army"
-"origin" "1384 1008 -248"
-"angle" "90"
-"spawnflags" "768"
-}
-{
-"spawnflags" "768"
-"angle" "90"
-"origin" "1240 1008 -248"
-"classname" "monster_army"
-}
-{
-"classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "1256 1760 -408"
 "angle" "180"
-"spawnflags" "257"
+"spawnflags" "261"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "824 1784 -408"
-"spawnflags" "257"
+"spawnflags" "261"
 "angle" "90"
 }
 {
 "classname" "monster_dog"
 "origin" "1128 1760 -408"
 "angle" "180"
-"spawnflags" "769"
+"spawnflags" "773"
 }
 {
 "classname" "path_corner"
@@ -1495,34 +1444,35 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "1232 2088 -216"
 "target" "t16"
+"spawnflags" "4"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "1232 2448 -280"
 "angle" "270"
-"spawnflags" "256"
+"spawnflags" "260"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "832 2464 -344"
 "angle" "0"
-"spawnflags" "256"
+"spawnflags" "260"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "832 2072 -408"
 "angle" "90"
-}
-{
-"classname" "monster_dog"
-"origin" "840 1960 -408"
-"angle" "90"
-"spawnflags" "768"
+"spawnflags" "4"
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "t18"
 "health" "1"
 "model" "*40"
@@ -1540,6 +1490,7 @@
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "t18"
 "model" "*42"
 }
@@ -1560,12 +1511,6 @@
 "model" "models/quake_items/b_shell0.bsp"
 "pickup_anyway" "-1"
 "ammo_shells" "20"
-}
-{
-"classname" "monster_army"
-"origin" "416 1912 -168"
-"angle" "180"
-"spawnflags" "768"
 }
 {
 "classname" "monster_dog"
@@ -1599,20 +1544,17 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "80 2024 -184"
 "target" "t20"
+"spawnflags" "4"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "-16 1888 -184"
-"spawnflags" "256"
+"spawnflags" "260"
 "target" "t22"
-}
-{
-"classname" "monster_dog"
-"origin" "-248 2144 -136"
-"spawnflags" "768"
-"angle" "315"
 }
 {
 "classname" "path_corner"
@@ -1627,12 +1569,6 @@
 "targetname" "t24"
 }
 {
-"classname" "monster_army"
-"origin" "-432 2352 56"
-"spawnflags" "768"
-"target" "t23"
-}
-{
 "angle" "0"
 "classname" "monster_dog"
 "origin" "-544 2584 56"
@@ -1640,24 +1576,29 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "-344 2656 -104"
 "angle" "270"
+"spawnflags" "4"
 }
 {
 "classname" "monster_dog"
 "origin" "-72 2896 -56"
-"spawnflags" "256"
+"spawnflags" "260"
 "angle" "225"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "432 2920 -56"
 "target" "t25"
+"spawnflags" "4"
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "424 2832 -56"
-"spawnflags" "256"
+"spawnflags" "260"
 "angle" "180"
 }
 {
@@ -1686,20 +1627,10 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "424 2672 -56"
 "target" "t27"
-}
-{
-"classname" "monster_army"
-"origin" "424 2880 -56"
-"angle" "180"
-"spawnflags" "768"
-}
-{
-"classname" "monster_army"
-"origin" "424 2760 -56"
-"spawnflags" "768"
-"angle" "180"
+"spawnflags" "4"
 }
 {
 "classname" "path_corner"
@@ -1715,15 +1646,11 @@
 }
 {
 "classname" "monster_army"
+"monster_moveflags" "4"
 "origin" "848 2584 -72"
 "spawnflags" "257"
 "target" "t29"
-}
-{
-"classname" "monster_army"
-"origin" "824 2008 -152"
-"angle" "90"
-"spawnflags" "768"
+"spawnflags" "4"
 }
 {
 "origin" "-376 1704 -224"
@@ -1735,24 +1662,6 @@
 "spawnflags" "1024"
 "max_health" "100"
 "health" "15"
-}
-{
-"angle" "180"
-"spawnflags" "768"
-"origin" "248 2352 40"
-"classname" "monster_army"
-}
-{
-"spawnflags" "768"
-"angle" "270"
-"origin" "-72 2464 40"
-"classname" "monster_army"
-}
-{
-"spawnflags" "768"
-"angle" "225"
-"origin" "904 1024 -248"
-"classname" "monster_army"
 }
 {
 "light" "100"
@@ -1925,7 +1834,7 @@
 "origin" "136 1272 -320"
 }
 {
-"spawnflags" "1024"
+"spawnflags" "16384"
 "wait" "5"
 "sounds" "2"
 "message" "You can jump across..."
@@ -1934,7 +1843,7 @@
 "model" "*50"
 }
 {
-"spawnflags" "1024"
+"spawnflags" "16384"
 "wait" "5"
 "message" "You can jump up here..."
 "sounds" "2"
@@ -1969,6 +1878,7 @@
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "endlevel"
 "model" "*52"
 }
@@ -2001,20 +1911,10 @@
 "classname" "qlight"
 }
 {
-"spawnflags" "768"
-"angle" "270"
-"origin" "288 1536 -200"
-"classname" "monster_army"
-}
-{
-"spawnflags" "768"
-"origin" "968 2432 -112"
-"classname" "monster_army"
-}
-{
 "wait" "5"
 "message" "Walk into the slipgate to exit."
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "sounds" "2"
 "angle" "270"
 "model" "*53"
@@ -2023,12 +1923,12 @@
 "classname" "trigger_once"
 "killtarget" "t31"
 "target" "t31"
-"spawnflags" "1024"
+"spawnflags" "16384"
 "model" "*54"
 }
 {
 "classname" "trigger_once"
-"spawnflags" "1024"
+"spawnflags" "16384"
 "target" "t32"
 "killtarget" "t32"
 "model" "*55"
