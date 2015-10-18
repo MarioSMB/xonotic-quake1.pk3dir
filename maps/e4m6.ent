@@ -6,71 +6,71 @@
 "sounds" "4"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-160 -1392 96"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "32 -1392 96"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "480 -1392 96"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "672 -1392 96"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-240 -1120 96"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "752 -1120 96"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "456 -480 288"
 "angle" "0"
 "light" "400"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "56 -480 288"
 "angle" "0"
 "light" "400"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "56 -672 288"
 "angle" "0"
 "light" "400"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "456 -672 288"
 "angle" "0"
 "light" "400"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "392 -672 320"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "392 -480 320"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "120 -480 320"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "120 -672 320"
 }
 {
@@ -80,44 +80,44 @@
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "392 -672 192"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "392 -480 192"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "456 -480 192"
 "angle" "0"
 "light" "300"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "456 -672 192"
 "angle" "0"
 "light" "300"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "120 -672 192"
 }
 {
 "light" "150"
-"classname" "light"
+"classname" "qlight"
 "origin" "120 -480 192"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "56 -480 192"
 "angle" "0"
 "light" "300"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "56 -672 192"
 "angle" "0"
 "light" "300"
@@ -128,7 +128,7 @@
 "angle" "315"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1336 128 280"
 "angle" "0"
 }
@@ -143,13 +143,13 @@
 "light" "300"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-64 -328 168"
 "light" "200"
 }
 {
 "spawnflags" "1"
-"classname" "light"
+"classname" "qlight"
 "origin" "704 -672 -8"
 "light" "200"
 }
@@ -367,7 +367,7 @@
 {
 "light" "400"
 "origin" "2336 728 144"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "classname" "path_corner"
@@ -432,23 +432,23 @@
 }
 {
 "origin" "256 -1520 96"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
-"classname" "light"
+"classname" "qlight"
 "origin" "-160 -832 96"
 }
 {
 "origin" "-160 -752 96"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "256 -976 96"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-96 -1832 264"
 "light" "400"
 }
@@ -500,39 +500,39 @@
 {
 "light" "200"
 "origin" "712 -440 120"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "712 -632 120"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "712 -824 120"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "400"
 "angle" "0"
 "origin" "456 -864 288"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "392 -864 320"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "392 -864 192"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "300"
 "angle" "0"
 "origin" "456 -864 192"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "640 -1624 24"
@@ -630,64 +630,64 @@
 }
 {
 "origin" "-464 -576 64"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
-"classname" "light"
+"classname" "qlight"
 "origin" "-384 -576 64"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-768 -1184 64"
 }
 {
 "light" "150"
 "origin" "-888 -456 184"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-888 -584 184"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-888 -712 184"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-888 -840 184"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-888 -968 184"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-648 -968 184"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-648 -840 184"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-648 -696 184"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-648 -456 184"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-768 -456 184"
 "light" "150"
 }
@@ -882,164 +882,164 @@
 {
 "light" "200"
 "origin" "-64 -520 168"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-64 -712 168"
 "light" "200"
 }
 {
 "light" "150"
 "origin" "1368 440 224"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1560 440 224"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "1752 440 224"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "1240 440 64"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1432 440 64"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "1624 440 64"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1816 440 64"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "1496 312 256"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1688 312 256"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "1880 312 256"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1240 184 64"
 "light" "150"
 }
 {
 "angle" "0"
 "origin" "1528 128 280"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1720 128 160"
 "angle" "0"
 }
 {
 "angle" "0"
 "origin" "1720 128 280"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "angle" "0"
 "origin" "1528 128 160"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "1336 128 160"
 "angle" "0"
 }
 {
 "light" "180"
 "origin" "-960 -1752 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-1024 -1344 -32"
 "light" "180"
 }
 {
 "light" "180"
 "origin" "-512 -1344 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-512 -1472 -32"
 "light" "180"
 }
 {
 "light" "180"
 "origin" "-704 -1752 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-576 -1752 -32"
 "light" "180"
 }
 {
 "light" "180"
 "origin" "-832 -1752 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-1024 -1472 -32"
 "light" "180"
 }
 {
 "origin" "-768 -1504 72"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-640 -1344 -32"
 "light" "180"
 }
 {
 "light" "180"
 "origin" "-960 -1624 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-896 -1344 -32"
 "light" "180"
 }
 {
 "light" "180"
 "origin" "-576 -1624 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "-960 -1184 -32"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-568 -1184 -32"
 "light" "150"
 }
@@ -1087,33 +1087,33 @@
 }
 {
 "origin" "760 -672 -80"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "912 -784 -80"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "832 -672 96"
 }
 {
 "light" "200"
 "origin" "912 -480 0"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
 "origin" "736 352 -64"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "912 -256 -208"
 }
 {
 "origin" "688 128 -208"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "target" "t164"
@@ -1166,67 +1166,67 @@
 {
 "light" "200"
 "origin" "-384 -1576 -64"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-384 -1552 64"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "-384 -1528 256"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "-768 -576 216"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-768 -704 216"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-768 -832 216"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-768 -960 216"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-424 -408 64"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-424 -744 64"
 "light" "150"
 }
 {
 "light" "200"
 "origin" "40 -1016 128"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "256 -1120 128"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "472 -1016 128"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "632 -1000 96"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "410 -198 68"
@@ -1258,17 +1258,17 @@
 "target" "t124"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-888 -424 40"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "-760 -424 40"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-632 -424 40"
 "light" "200"
 }
@@ -1332,20 +1332,20 @@
 }
 {
 "origin" "40 88 64"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "-64 64 64"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
-"classname" "light"
+"classname" "qlight"
 "origin" "-416 -352 -80"
 }
 {
 "origin" "-416 96 -80"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "170 562 104"
@@ -1426,45 +1426,45 @@
 {
 "light" "400"
 "origin" "384 320 392"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
 "origin" "64 448 -8"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "64 192 -8"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "256 0 -8"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "512 0 -8"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "512 640 -8"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "256 640 -8"
 "light" "200"
 }
 {
 "light" "200"
 "origin" "704 448 -8"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "704 192 -8"
 "light" "200"
 }
@@ -1505,7 +1505,7 @@
 "classname" "light_torch_small_walltorch"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "256 -1728 96"
 }
 {
@@ -1517,22 +1517,22 @@
 {
 "light" "200"
 "origin" "-768 -1888 -64"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "256 -768 320"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "256 -576 320"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
 "origin" "256 -384 320"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "150"
@@ -1661,35 +1661,35 @@
 {
 "light" "150"
 "origin" "-488 1376 200"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-448 1568 200"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-352 1768 200"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-216 1872 200"
 "light" "150"
 }
 {
 "light" "150"
 "origin" "-24 1952 200"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "256 1952 200"
 "light" "150"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "736 1952 200"
 "light" "150"
 }
@@ -1758,31 +1758,31 @@
 }
 {
 "origin" "88 1464 200"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-120 1128 200"
 }
 {
 "origin" "-8 1304 200"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "-440 808 -8"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "-312 648 -8"
 }
 {
 "origin" "-184 808 -8"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "-328 520 104"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "-38 570 212"
@@ -1857,7 +1857,7 @@
 }
 {
 "light" "200"
-"classname" "light"
+"classname" "qlight"
 "origin" "456 0 320"
 }
 {
@@ -1872,7 +1872,7 @@
 }
 {
 "origin" "456 640 320"
-"classname" "light"
+"classname" "qlight"
 "light" "200"
 }
 {
@@ -1894,24 +1894,24 @@
 }
 {
 "origin" "768 896 408"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
 "origin" "712 608 408"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "classname" "func_plat"
 "model" "*58"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "768 1408 256"
 }
 {
 "origin" "768 1728 256"
-"classname" "light"
+"classname" "qlight"
 }
 {
 //"spawnflags" "2048"
@@ -1944,7 +1944,7 @@
 }
 {
 "origin" "384 712 280"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "target" "t192"
@@ -1960,7 +1960,7 @@
 {
 "light" "200"
 "origin" "896 320 320"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "1146 322 296"
@@ -2172,7 +2172,7 @@
 }
 {
 "light" "200"
-"classname" "light"
+"classname" "qlight"
 "origin" "256 -736 232"
 }
 {
@@ -2334,7 +2334,7 @@
 "targetname" "t209"
 "spawnflags" "1"
 "origin" "1752 312 96"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "2106 386 172"
@@ -2345,12 +2345,12 @@
 "origin" "2106 242 172"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "2336 272 192"
 }
 {
 "origin" "2472 448 192"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "message" "The altar has been defiled."
@@ -2410,10 +2410,10 @@
 }
 {
 "origin" "-416 1232 40"
-"classname" "light"
+"classname" "qlight"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "496 1952 200"
 "light" "150"
 }
@@ -2597,16 +2597,16 @@
 {
 "light" "150"
 "origin" "256 -200 184"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "origin" "304 368 -80"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "light" "200"
 "origin" "768 1152 384"
-"classname" "light"
+"classname" "qlight"
 }
 {
 //"spawnflags" "2048"
@@ -2760,7 +2760,7 @@
 {
 "light" "120"
 "origin" "-192 -1544 264"
-"classname" "light"
+"classname" "qlight"
 }
 {
 "spawnflags" "1"
@@ -2830,7 +2830,7 @@
 "classname" "ambient_swamp1"
 }
 {
-"classname" "light"
+"classname" "qlight"
 "origin" "384 600 96"
 }
 {
