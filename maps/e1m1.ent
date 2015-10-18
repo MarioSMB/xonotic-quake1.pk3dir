@@ -1444,9 +1444,9 @@
 }
 {
 "classname" "monster_army"
-"monster_moveflags" "4"
+"monster_moveflags" "2"
 "origin" "1232 2088 -216"
-"target" "t16"
+"target2" "t16"
 "spawnflags" "4"
 }
 {
@@ -1544,17 +1544,17 @@
 }
 {
 "classname" "monster_army"
-"monster_moveflags" "4"
+"monster_moveflags" "2"
 "origin" "80 2024 -184"
-"target" "t20"
+"target2" "t20"
 "spawnflags" "4"
 }
 {
 "classname" "monster_army"
-"monster_moveflags" "4"
+"monster_moveflags" "2"
 "origin" "-16 1888 -184"
 "spawnflags" "260"
-"target" "t22"
+"target2" "t22"
 }
 {
 "classname" "path_corner"
@@ -1589,9 +1589,9 @@
 }
 {
 "classname" "monster_army"
-"monster_moveflags" "4"
+"monster_moveflags" "2"
 "origin" "432 2920 -56"
-"target" "t25"
+"target2" "t25"
 "spawnflags" "4"
 }
 {
@@ -1627,9 +1627,9 @@
 }
 {
 "classname" "monster_army"
-"monster_moveflags" "4"
+"monster_moveflags" "2"
 "origin" "424 2672 -56"
-"target" "t27"
+"target2" "t27"
 "spawnflags" "4"
 }
 {
@@ -1646,10 +1646,10 @@
 }
 {
 "classname" "monster_army"
-"monster_moveflags" "4"
+"monster_moveflags" "2"
 "origin" "848 2584 -72"
 "spawnflags" "257"
-"target" "t29"
+"target2" "t29"
 "spawnflags" "4"
 }
 {
