@@ -1,9 +1,9 @@
-title Quake 1: Episode 2, Level 5
-description the Wizard's Manse
+title Quake 1: Episode 3, Level 2
+description The Vaults of Zin
 author ID Software
 hidden
 noautomaplist
-cdtrack track006
+cdtrack track003
 has weapons
 gametype dm timelimit=0 pointlimit=0
 
