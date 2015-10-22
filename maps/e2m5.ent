@@ -2347,7 +2347,7 @@
 "spawnflags" "1"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "448 384 -96"
 "spawnflags" "1792"
 }
@@ -2932,11 +2932,6 @@
 "spawnflags" "1"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "320 2304 224"
-"angle" "180"
-}
-{
 "delay" "4"
 "classname" "func_door"
 "angle" "-1"
@@ -3066,37 +3061,12 @@
 }
 {
 "origin" "0 -552 -192"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "spawnflags" "1792"
 "origin" "1024 1048 88"
-"classname" "weapon_supernailgun"
-}
-{
-"origin" "-112 2304 224"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "0"
-"origin" "-648 712 16"
-"classname" "info_player_deathmatch"
-}
-{
-"origin" "-400 -552 -168"
-"classname" "info_player_deathmatch"
-}
-{
-"spawnflags" "1792"
-"angle" "270"
-"origin" "0 816 216"
-"classname" "info_player_deathmatch"
-}
-{
-"spawnflags" "1792"
-"angle" "180"
-"origin" "320 1912 184"
-"classname" "info_player_deathmatch"
+"classname" "weapon_qsupernailgun"
 }
 {
 "mangle" "20 125 0"

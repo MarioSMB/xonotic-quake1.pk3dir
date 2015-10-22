@@ -475,7 +475,7 @@
 }
 {
 "origin" "-96 1280 216"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
 {
 "target" "t13"
@@ -1050,39 +1050,39 @@
 "model" "*47"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-624 352 296"
 "angle" "90"
 "targetname" "t52"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-880 368 304"
 "angle" "90"
 "targetname" "t52"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-496 352 296"
 "angle" "90"
 "targetname" "t52"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-624 480 296"
 "angle" "270"
 "targetname" "t52"
 "spawnflags" "768"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-880 464 304"
 "angle" "270"
 "targetname" "t52"
 "spawnflags" "256"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-496 480 296"
 "angle" "270"
 "targetname" "t52"
@@ -1290,11 +1290,6 @@
 "light" "200"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "-928 416 24"
-"angle" "0"
-}
-{
 "classname" "weapon_supershotgun"
 "origin" "-800 416 0"
 "spawnflags" "1792"
@@ -1304,20 +1299,11 @@
 "origin" "-544 1800 -376"
 "light" "200"
 }
-{
-"classname" "info_player_deathmatch"
-"origin" "-704 1536 -232"
-"angle" "270"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "origin" "-696 1008 -256"
 "spawnflags" "1792"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "216 1488 24"
-"angle" "270"
 }
 {
 "classname" "item_rockets"
@@ -2607,7 +2593,7 @@
 "model" "*106"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "origin" "488 1456 0"
 ////"spawnflags" "2048"
 }
@@ -2617,7 +2603,7 @@
 "classname" "info_player_coop"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "560 288 0"
 "spawnflags" "3584"
 }
@@ -2629,40 +2615,12 @@
 {
 "spawnflags" "1792"
 "origin" "1056 296 8"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
-{
-"angle" "90"
-"origin" "544 176 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "0"
-"origin" "-88 504 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "0"
-"origin" "-640 416 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "0"
-"origin" "-448 1280 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "0"
-"origin" "352 1296 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "270"
-"origin" "480 824 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "180"
-"origin" "-224 1016 -232"
-"classname" "info_player_deathmatch"
-}
+
+
+
+
+
+
+

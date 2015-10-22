@@ -359,7 +359,7 @@
 "classname" "item_rockets"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "1120 64 -32"
 "spawnflags" "1792"
 }
@@ -384,19 +384,9 @@
 "model" "*2"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "704 -360 280"
-"angle" "90"
-}
-{
 "spawnflags" "1792"
 "classname" "func_wall"
 "model" "*3"
-}
-{
-"angle" "90"
-"origin" "128 -360 280"
-"classname" "info_player_deathmatch"
 }
 {
 "classname" "func_wall"
@@ -409,25 +399,6 @@
 "model" "*5"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "128 488 280"
-"angle" "270"
-}
-{
-"angle" "270"
-"origin" "704 488 280"
-"classname" "info_player_deathmatch"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-256 64 64"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-256 64 240"
-"angle" "0"
-}
-{
 "spawnflags" "1792"
 "classname" "func_wall"
 "model" "*6"
@@ -436,11 +407,6 @@
 "classname" "func_wall"
 "spawnflags" "1792"
 "model" "*7"
-}
-{
-"angle" "180"
-"origin" "1024 64 176"
-"classname" "info_player_deathmatch"
 }
 {
 "origin" "-480 208 120"
@@ -853,20 +819,20 @@
 "targetname" "t25"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1760 128 24"
 }
 {
 "origin" "1824 128 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1568 128 24"
 }
 {
 "origin" "1632 128 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "classname" "trigger_teleport"
@@ -893,20 +859,20 @@
 "targetname" "t28"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1824 64 24"
 }
 {
 "origin" "1760 64 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1632 64 24"
 }
 {
 "origin" "1568 64 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "classname" "trigger_teleport"
@@ -951,7 +917,7 @@
 {
 "spawnflags" "1792"
 "origin" "984 -328 192"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "spawnflags" "1792"
@@ -961,7 +927,7 @@
 {
 "spawnflags" "1792"
 "origin" "-224 376 192"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
 {
 "spawnflags" "1792"
@@ -971,7 +937,7 @@
 {
 "spawnflags" "1792"
 "origin" "352 456 32"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "spawnflags" "1792"

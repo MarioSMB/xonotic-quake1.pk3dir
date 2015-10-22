@@ -562,12 +562,12 @@
 "target" "t18"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-160 -1440 96"
 "targetname" "t3"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-160 -1488 96"
 "angle" "90"
 "targetname" "t3"
@@ -588,7 +588,7 @@
 {
 "angle" "180"
 "origin" "232 -1168 96"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "targetname" "t37"
 }
 {
@@ -635,7 +635,7 @@
 {
 "target" "t26"
 "origin" "-528 -976 248"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "target" "t26"
@@ -851,14 +851,14 @@
 "model" "*29"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-1504 -480 24"
 "targetname" "t6"
 "angle" "90"
 "spawnflags" "512"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-1272 -496 24"
 "targetname" "t6"
 "angle" "90"
@@ -1058,7 +1058,7 @@
 "model" "*36"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-160 -1568 96"
 "angle" "270"
 }
@@ -1227,13 +1227,13 @@
 "model" "*44"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-1256 -680 24"
 "angle" "90"
 "targetname" "t47"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-1512 -688 24"
 "angle" "90"
 "targetname" "t47"
@@ -1786,11 +1786,11 @@
 }
 {
 "origin" "48 -1168 72"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
 {
 "spawnflags" "1792"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "origin" "-64 -688 240"
 }
 {
@@ -1813,14 +1813,9 @@
 "classname" "item_artifact_invisibility"
 }
 {
-"angle" "90"
-"origin" "576 -392 200"
-"classname" "info_player_deathmatch"
-}
-{
 "spawnflags" "1792"
 "origin" "576 -256 176"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "light" "125"
@@ -1832,39 +1827,15 @@
 "origin" "576 -152 208"
 "classname" "qlight"
 }
-{
-"angle" "270"
-"origin" "576 -216 32"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "45"
-"origin" "-608 -1320 96"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "180"
-"origin" "-528 -1496 248"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "180"
-"origin" "-728 392 168"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "270"
-"origin" "1232 -120 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "90"
-"origin" "1456 312 -232"
-"classname" "info_player_deathmatch"
-}
+
+
+
+
+
+
 {
 "origin" "1392 -176 -256"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "spawnflags" "1792"
 }
 {
@@ -2115,10 +2086,10 @@
 {
 "angle" "270"
 "origin" "-536 -864 248"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-552 -1128 248"
 "angle" "270"
 }

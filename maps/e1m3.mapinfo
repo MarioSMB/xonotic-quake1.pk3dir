@@ -20,6 +20,8 @@ settemp_for_type all sv_player_crouch_viewoffset "0 0 16"
 settemp_for_type all sv_player_crouch_maxs "16 16 16"
 settemp_for_type all sv_player_scale 0.75
 
+settemp_for_type all g_monsters_respawn 0
+
 settemp_for_type all sv_defaultcharacter 1
 settemp_for_type all sv_defaultplayermodel models/player/quakeguy.dpm
 

@@ -74,11 +74,6 @@
 "origin" "120 -672 320"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "368 -896 184"
-"angle" "135"
-}
-{
 "light" "150"
 "classname" "qlight"
 "origin" "392 -672 192"
@@ -121,11 +116,6 @@
 "origin" "56 -672 192"
 "angle" "0"
 "light" "300"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-336 1824 200"
-"angle" "315"
 }
 {
 "classname" "qlight"
@@ -453,11 +443,6 @@
 "light" "400"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "16 -1816 216"
-"angle" "135"
-}
-{
 "angle" "90"
 "origin" "-112 -1808 216"
 "classname" "info_player_start"
@@ -469,7 +454,7 @@
 "model" "*10"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "origin" "296 736 240"
 "target" "t219"
 }
@@ -2191,12 +2176,7 @@
 "spawnflags" "1792"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "864 -576 16"
-"angle" "45"
-}
-{
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "-112 64 32"
 "spawnflags" "1792"
 }
@@ -2206,7 +2186,7 @@
 "spawnflags" "1792"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "640 1904 0"
 "spawnflags" "1792"
 }
@@ -2221,7 +2201,7 @@
 "spawnflags" "1792"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "1520 272 0"
 "spawnflags" "1792"
 }
@@ -2231,45 +2211,15 @@
 "origin" "2320 656 72"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "2448 720 96"
-"angle" "225"
-}
-{
 "classname" "weapon_supershotgun"
 "origin" "2432 312 104"
 "spawnflags" "1792"
 }
-{
-"classname" "info_player_deathmatch"
-"origin" "-200 512 152"
-"angle" "0"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-224 72 56"
-"angle" "0"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "248 48 376"
-"angle" "45"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "144 656 376"
-"angle" "315"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "768 784 344"
-"angle" "225"
-}
-{
-"angle" "180"
-"origin" "784 368 376"
-"classname" "info_player_deathmatch"
-}
+
+
+
+
+
 {
 "classname" "trigger_once"
 "angle" "270"

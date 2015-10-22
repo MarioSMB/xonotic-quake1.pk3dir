@@ -1771,72 +1771,72 @@
 {
 "target" "t44"
 "origin" "-1248 -2016 -232"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "target" "t48"
 "origin" "-992 -1768 -232"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "target" "t46"
 "origin" "-744 -2016 -232"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "target" "t42"
 "origin" "-992 -2272 -232"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "target" "t125"
 "origin" "160 -160 -168"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "spawnflags" "256"
 "target" "t125"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "520 -152 -168"
 }
 {
 "target" "t125"
 "origin" "648 -40 -168"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "spawnflags" "768"
 "target" "t77"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "880 -48 24"
 }
 {
 "spawnflags" "768"
 "target" "t78"
 "origin" "880 24 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "spawnflags" "768"
 "target" "t74"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "880 96 24"
 }
 {
 "spawnflags" "256"
 "target" "t74"
 "origin" "808 96 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "target" "t78"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "808 24 24"
 }
 {
 "target" "t77"
 "origin" "808 -48 24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "light" "200"
@@ -1854,7 +1854,7 @@
 {
 "target" "t125"
 "angle" "315"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "256 296 -168"
 }
 {
@@ -2510,21 +2510,6 @@
 "model" "*106"
 }
 {
-"angle" "90"
-"origin" "608 -1136 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "225"
-"origin" "320 0 120"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "135"
-"origin" "648 -2160 216"
-"classname" "info_player_deathmatch"
-}
-{
 "spawnflags" "1792"
 "origin" "208 168 -192"
 "classname" "weapon_grenadelauncher"
@@ -2542,7 +2527,7 @@
 {
 "spawnflags" "1792"
 "origin" "-992 -1952 -280"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "spawnflags" "1792"
@@ -2550,14 +2535,9 @@
 "classname" "weapon_supershotgun"
 }
 {
-"angle" "90"
-"origin" "-1056 -2656 32"
-"classname" "info_player_deathmatch"
-}
-{
 "spawnflags" "1792"
 "origin" "96 608 -192"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "spawnflags" "1792"
@@ -2570,19 +2550,9 @@
 "classname" "weapon_grenadelauncher"
 }
 {
-"angle" "270"
-"origin" "-224 1360 -88"
-"classname" "info_player_deathmatch"
-}
-{
 "spawnflags" "1792"
 "origin" "-1056 -296 -136"
-"classname" "weapon_rocketlauncher"
-}
-{
-"angle" "270"
-"origin" "-992 920 -248"
-"classname" "info_player_deathmatch"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "spawnflags" "1792"
@@ -2592,12 +2562,7 @@
 {
 "spawnflags" "1792"
 "origin" "-2336 -1128 64"
-"classname" "weapon_supernailgun"
-}
-{
-"angle" "315"
-"origin" "-2464 -544 32"
-"classname" "info_player_deathmatch"
+"classname" "weapon_qsupernailgun"
 }
 {
 "spawnflags" "1792"
@@ -2607,12 +2572,12 @@
 {
 "spawnflags" "1792"
 "origin" "-1632 88 128"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "spawnflags" "1792"
 "origin" "656 -1520 192"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
 {
 "map" "start"

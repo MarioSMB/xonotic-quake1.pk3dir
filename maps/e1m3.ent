@@ -1822,7 +1822,7 @@
 "target2" "t117"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "-712 -1240 60"
 "angle" "90"
 }
@@ -3021,7 +3021,7 @@
 {
 "spawnflags" "1792"
 "origin" "-976 -360 -360"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "classname" "weapon_supershotgun"
@@ -3077,7 +3077,7 @@
 "spawnflags" "1794"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "1648 -96 56"
 "spawnflags" "1792"
 }
@@ -3087,7 +3087,7 @@
 "spawnflags" "1793"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "232 24 -208"
 "spawnflags" "1792"
 }

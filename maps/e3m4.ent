@@ -3081,10 +3081,10 @@
 {
 "angle" "180"
 "origin" "1904 -912 -24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1864 -1008 -24"
 "angle" "180"
 }
@@ -3092,15 +3092,15 @@
 "spawnflags" "768"
 "angle" "180"
 "origin" "1816 -1008 -24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "angle" "0"
 "origin" "1184 -1008 -24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1096 -976 -24"
 "angle" "45"
 }
@@ -3108,7 +3108,7 @@
 "spawnflags" "256"
 "angle" "45"
 "origin" "1104 -912 -24"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "light" "200"
@@ -3345,7 +3345,7 @@
 {
 "angle" "90"
 "origin" "200 -1568 -232"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "sounds" "1"
@@ -3875,16 +3875,6 @@
 "spawnflags" "1"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "256 -576 -232"
-"angle" "180"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "464 -144 -104"
-"angle" "270"
-}
-{
 "classname" "weapon_supershotgun"
 "origin" "480 -344 -128"
 "spawnflags" "1792"
@@ -3895,22 +3885,12 @@
 "spawnflags" "1792"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "880 -136 -104"
-"angle" "270"
-}
-{
 "classname" "item_armorInv"
 "origin" "672 -600 -256"
 "spawnflags" "1792"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "1432 80 -40"
-"angle" "270"
-}
-{
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "1920 -1336 0"
 "spawnflags" "1792"
 }
@@ -3918,11 +3898,6 @@
 "classname" "weapon_grenadelauncher"
 "origin" "240 -1568 -256"
 "spawnflags" "1792"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "656 -1936 200"
-"angle" "90"
 }
 {
 "classname" "weapon_lightning"
@@ -4162,11 +4137,11 @@
 }
 {
 "origin" "1424 -624 -64"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "origin" "672 -576 208"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
 {
 "spawnflags" "1"
@@ -4272,11 +4247,6 @@
 {
 "classname" "item_shells"
 "origin" "-168 -1424 -264"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-192 -1416 -240"
-"angle" "90"
 }
 {
 "classname" "trigger_teleport"

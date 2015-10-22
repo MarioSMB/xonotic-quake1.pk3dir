@@ -401,11 +401,12 @@
 "target" "t9"
 }
 {
-"spawnflags" "1"
+"monster_moveflags" "2"
+"spawnflags" "4"
 "classname" "monster_ogre"
 "origin" "1018 -126 320"
 "angle" "0"
-"target" "t8"
+"target2" "t8"
 }
 {
 "classname" "item_health_medium"
@@ -521,7 +522,6 @@
 "health" "15"
 }
 {
-"spawnflags" "1"
 "classname" "monster_army"
 "monster_moveflags" "2"
 "origin" "262 -458 320"
@@ -553,8 +553,8 @@
 {
 "classname" "monster_knight"
 "origin" "-578 -654 480"
-"target" "t41"
-"spawnflags" "1"
+"target2" "t41"
+"monster_moveflags" "2"
 }
 {
 "classname" "item_shells"
@@ -634,7 +634,8 @@
 "classname" "monster_ogre"
 "origin" "1494 1134 208"
 "angle" "270"
-"target" "t22"
+"target2" "t22"
+"monster_moveflags" "2"
 }
 {
 "light" "300"
@@ -871,14 +872,16 @@
 "classname" "misc_teleporter_dest"
 }
 {
-"spawnflags" "768"
+"spawnflags" "2"
+"monster_moveflags" "4"
 "targetname" "t53"
 "angle" "180"
 "origin" "1912 -856 217"
 "classname" "monster_wizard"
 }
 {
-"spawnflags" "768"
+"spawnflags" "6"
+"monster_moveflags" "4"
 "targetname" "t53"
 "classname" "monster_wizard"
 "origin" "1912 -936 217"
@@ -889,13 +892,16 @@
 "angle" "90"
 "origin" "1320 -1112 441"
 "classname" "monster_knight"
+"monster_moveflags" "4"
+"spawnflags" "4"
 }
 {
-"spawnflags" "256"
+"spawnflags" "260"
 "targetname" "t50"
 "angle" "0"
 "origin" "1056 -1144 441"
 "classname" "monster_knight"
+"monster_moveflags" "4"
 }
 {
 "sounds" "1"
@@ -1134,7 +1140,8 @@
 "angle" "270"
 "origin" "-96 552 320"
 "classname" "monster_demon1"
-"spawnflags" "1024"
+"spawnflags" "1028"
+"monster_moveflags" "4"
 }
 {
 "targetname" "t74"
@@ -1316,7 +1323,7 @@
 "origin" "806 206 320"
 "angle" "90"
 "target2" "t82"
-"spawnflags" "256"
+"spawnflags" "260"
 }
 {
 "classname" "trigger_once"
@@ -1328,6 +1335,8 @@
 "origin" "1790 -146 312"
 "angle" "90"
 "targetname" "t84"
+"monster_moveflags" "4"
+"spawnflags" "4"
 }
 {
 "classname" "path_corner"
@@ -1354,11 +1363,12 @@
 "target" "t87"
 }
 {
-"spawnflags" "1"
 "classname" "monster_ogre"
 "origin" "1086 -498 312"
 "angle" "270"
-"target" "t88"
+"target2" "t88"
+"monster_moveflags" "2"
+"spawnflags" "4"
 }
 {
 "spawnflags" "256"
@@ -1426,6 +1436,7 @@
 "origin" "390 -970 432"
 "angle" "0"
 "target2" "t94"
+"spawnflags" "4"
 }
 {
 "classname" "monster_army"
@@ -1715,16 +1726,16 @@
 }
 {
 "origin" "680 728 184"
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 }
 {
 "origin" "1496 1256 176"
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 }
 {
 "angle" "180"
 "origin" "-96 -496 360"
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 }
 {
 "origin" "-112 -8 464"
@@ -3086,7 +3097,7 @@
 "health" "25"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "880 -616 192"
 }
 {

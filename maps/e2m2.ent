@@ -369,31 +369,11 @@
 "origin" "-680 880 48"
 "classname" "item_health"
 }
-{
-"angle" "90"
-"origin" "-896 512 24"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "90"
-"origin" "-184 560 128"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "270"
-"origin" "160 1640 160"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "90"
-"origin" "1272 112 80"
-"classname" "info_player_deathmatch"
-}
-{
-"angle" "90"
-"origin" "176 -784 24"
-"classname" "info_player_deathmatch"
-}
+
+
+
+
+
 {
 "spawnflags" "1"
 "origin" "208 -160 0"
@@ -430,11 +410,6 @@
 "spawnflags" "1"
 "origin" "664 1272 -88"
 "classname" "item_shells"
-}
-{
-"angle" "225"
-"origin" "888 1312 120"
-"classname" "info_player_deathmatch"
 }
 {
 "origin" "1328 168 56"
@@ -521,12 +496,12 @@
 "spawnflags" "1792"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "origin" "1232 176 56"
 "spawnflags" "1792"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "-960 944 40"
 "spawnflags" "1792"
 }
@@ -536,7 +511,7 @@
 "spawnflags" "1792"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "160 120 24"
 "spawnflags" "1792"
 }
@@ -1241,12 +1216,12 @@
 "targetname" "t1"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-288 -232 -296"
 "angle" "270"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "168 -8 -104"
 "angle" "90"
 }
@@ -1275,7 +1250,7 @@
 "model" "*27"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "152 1608 136"
 ////"spawnflags" "2048"
 }
@@ -1742,30 +1717,30 @@
 "classname" "qlight"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1592 -24 160"
 "angle" "180"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1432 -304 112"
 "angle" "135"
 "spawnflags" "256"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1304 -288 112"
 "angle" "90"
 "spawnflags" "256"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1576 -216 136"
 "angle" "180"
 "spawnflags" "768"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "1928 -80 200"
 "spawnflags" "768"
 "angle" "180"
@@ -1774,7 +1749,7 @@
 "angle" "180"
 "spawnflags" "768"
 "origin" "1928 -280 200"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "classname" "trigger_changelevel"

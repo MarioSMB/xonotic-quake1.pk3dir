@@ -370,19 +370,19 @@
 "targetname" "t9"
 "angle" "180"
 "origin" "1024 640 -152"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "targetname" "t9"
 "angle" "180"
 "origin" "1120 672 -152"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "targetname" "t9"
 "angle" "180"
 "origin" "1088 600 -152"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "origin" "976 336 -176"
@@ -1209,7 +1209,7 @@
 "classname" "qlight"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "184 -1520 -272"
 }
 {
@@ -1274,12 +1274,12 @@
 "spawnflags" "1"
 }
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_qnailgun"
 "origin" "-80 1456 -192"
 "spawnflags" "1792"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_qrocketlauncher"
 "origin" "56 1144 128"
 "spawnflags" "1792"
 }
@@ -1303,19 +1303,19 @@
 "origin" "-456 312 -80"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-1152 96 -88"
 "spawnflags" "256"
 "target" "t36"
 }
 {
 "origin" "-1120 32 -88"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "spawnflags" "768"
 "target" "t36"
 }
 {
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 "origin" "-1192 168 -88"
 "target" "t36"
 }
@@ -1535,7 +1535,7 @@
 "angle" "45"
 "spawnflags" "256"
 "origin" "104 256 -136"
-"classname" "monster_zombie"
+"classname" "monster_qzombie"
 }
 {
 "spawnflags" "769"
@@ -1901,7 +1901,7 @@
 "origin" "-96 272 -384"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "-1200 208 -112"
 "spawnflags" "1792"
 }
@@ -2041,36 +2041,12 @@
 "origin" "190 1438 -136"
 "angle" "0"
 }
-{
-"classname" "info_player_deathmatch"
-"origin" "640 -1664 -312"
-"angle" "180"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-400 -240 88"
-"angle" "0"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-216 1088 152"
-"angle" "0"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-512 792 -104"
-"angle" "270"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "888 624 -152"
-"angle" "270"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-96 1456 -168"
-"angle" "0"
-}
+
+
+
+
+
+
 {
 ////"spawnflags" "2048"
 "classname" "func_wall"
@@ -2503,7 +2479,7 @@
 ////"spawnflags" "2048"
 }
 {
-"classname" "weapon_supernailgun"
+"classname" "weapon_qsupernailgun"
 "origin" "-1256 1448 -80"
 }
 {
