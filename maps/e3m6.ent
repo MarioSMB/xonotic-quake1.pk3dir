@@ -3109,12 +3109,12 @@
 {
 "targetname" "t107"
 "origin" "-1408 -544 -16"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t108"
 "origin" "-712 -280 -96"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "spawnflags" "256"
@@ -3778,7 +3778,7 @@
 "spawnflags" "256"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-96 -1064 8"
 "angle" "90"
 "targetname" "t153"
@@ -3883,7 +3883,7 @@
 }
 {
 "spawnflags" "256"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1088 -584 -8"
 "angle" "0"
 "targetname" "t158"
@@ -3907,7 +3907,7 @@
 "spawnflags" "256"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "284 -3312 140"
 "angle" "90"
 "targetname" "t159"
@@ -4203,7 +4203,7 @@
 }
 {
 "targetname" "t166"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "664 -3064 16"
 "angle" "135"
 }
@@ -4522,7 +4522,7 @@
 "classname" "monster_shalrath"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-64 -3056 16"
 "angle" "45"
 "targetname" "t169"
@@ -4542,7 +4542,7 @@
 "spawnflags" "256"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "288 -2656 136"
 "angle" "270"
 "targetname" "t170"

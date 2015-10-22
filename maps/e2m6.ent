@@ -1487,7 +1487,7 @@
 "model" "*51"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "184 496 -512"
 "angle" "180"
 "targetname" "t33"
@@ -1626,7 +1626,7 @@
 "model" "*53"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-136 496 -632"
 "targetname" "t35"
 }
@@ -1802,37 +1802,37 @@
 "model" "*65"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-152 344 -736"
 "angle" "45"
 "targetname" "t46"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "24 344 -744"
 "angle" "90"
 "targetname" "t45"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "184 344 -736"
 "angle" "135"
 "targetname" "t44"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "184 648 -736"
 "angle" "225"
 "targetname" "t47"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "24 648 -736"
 "angle" "270"
 "targetname" "t48"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-152 648 -736"
 "angle" "315"
 "targetname" "t49"
@@ -2418,7 +2418,7 @@
 "targetname" "t74"
 "angle" "180"
 "origin" "2800 224 -296"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "spawnflags" "1"
@@ -2827,7 +2827,7 @@
 "model" "*77"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1056 504 -1032"
 "targetname" "t88"
 }

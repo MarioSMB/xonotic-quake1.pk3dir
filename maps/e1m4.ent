@@ -1473,7 +1473,7 @@
 "model" "*29"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "984 1496 1000"
 "angle" "180"
 "targetname" "t40"
@@ -1515,7 +1515,7 @@
 "model" "*30"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "432 856 952"
 "angle" "45"
 "targetname" "t45"
@@ -1585,7 +1585,7 @@
 "model" "*35"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "1104 232 880"
 "angle" "180"
 "targetname" "t46"
@@ -1605,7 +1605,7 @@
 "spawnflags" "256"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "704 -40 1256"
 "angle" "90"
 "targetname" "t50"
@@ -2577,13 +2577,13 @@
 "targetname" "t102"
 "spawnflags" "256"
 "origin" "704 2656 1008"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "angle" "270"
 "targetname" "t103"
 "spawnflags" "768"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "920 2520 1008"
 }
 {
@@ -2591,7 +2591,7 @@
 "targetname" "t104"
 "spawnflags" "768"
 "origin" "592 2192 1008"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "sounds" "1"
@@ -2640,7 +2640,7 @@
 "spawnflags" "768"
 "angle" "270"
 "origin" "-264 2232 1296"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "classname" "path_corner"
@@ -2754,14 +2754,14 @@
 "model" "*83"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "896 224 1352"
 "angle" "135"
 "spawnflags" "256"
 "targetname" "t112"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "488 1648 1016"
 "angle" "315"
 "spawnflags" "768"
@@ -2774,7 +2774,7 @@
 "model" "*84"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "800 904 928"
 "angle" "90"
 "spawnflags" "768"

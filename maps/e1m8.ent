@@ -2101,13 +2101,13 @@
 "model" "*21"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "720 -216 96"
 "targetname" "t30"
 "angle" "90"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "552 -280 96"
 "targetname" "t31"
 "spawnflags" "256"
@@ -2133,7 +2133,7 @@
 "targetname" "t33"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "536 -472 -24"
 "angle" "90"
 "targetname" "t34"
@@ -2422,7 +2422,7 @@
 "targetname" "t55"
 "angle" "270"
 "origin" "672 720 -720"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t55"

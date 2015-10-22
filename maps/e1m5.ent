@@ -448,7 +448,7 @@
 "targetname" "t30"
 "angle" "90"
 "origin" "-1536 1460 138"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "364"
@@ -842,13 +842,13 @@
 "model" "*28"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-984 852 328"
 "angle" "270"
 "targetname" "t46"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "704 1520 4"
 "angle" "90"
 "targetname" "t45"
@@ -1648,7 +1648,7 @@
 "light" "264"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-544 1348 -32"
 "angle" "90"
 "targetname" "t115"
@@ -2434,7 +2434,7 @@
 "targetname" "t51"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-272 288 400"
 "angle" "135"
 "spawnflags" "768"
@@ -2444,7 +2444,7 @@
 "spawnflags" "768"
 "angle" "45"
 "origin" "-792 296 400"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "targetname" "t130"
 }
 {
@@ -2486,14 +2486,14 @@
 "spawnflags" "256"
 "angle" "180"
 "origin" "-224 696 552"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t133"
 "spawnflags" "768"
 "angle" "45"
 "origin" "-888 448 360"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t134"
@@ -2600,14 +2600,14 @@
 "targetname" "t137"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-96 1456 168"
 "angle" "90"
 "spawnflags" "768"
 "targetname" "t136"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "104 1624 232"
 "angle" "135"
 "spawnflags" "768"
@@ -2702,21 +2702,21 @@
 "spawnflags" "768"
 "angle" "90"
 "origin" "712 1376 0"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t142"
 "spawnflags" "768"
 "angle" "180"
 "origin" "936 1576 0"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t143"
 "spawnflags" "768"
 "angle" "0"
 "origin" "496 1672 0"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "classname" "item_spikes"

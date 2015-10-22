@@ -214,7 +214,7 @@
 "targetname" "t5"
 "angle" "0"
 "origin" "-80 512 24"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "200"
@@ -696,7 +696,7 @@
 "targetname" "t25"
 "angle" "90"
 "origin" "192 -896 -48"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "classname" "light_torch_small_walltorch"
@@ -916,7 +916,7 @@
 "targetname" "t32"
 "angle" "90"
 "origin" "1376 -352 16"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "180"
@@ -1165,25 +1165,25 @@
 "model" "*64"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-200 -128 -56"
 "angle" "180"
 "targetname" "t41"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-256 96 -56"
 "angle" "270"
 "targetname" "t43"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "176 744 8"
 "angle" "270"
 "targetname" "t42"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-568 -248 -56"
 "angle" "0"
 "targetname" "t40"
@@ -1213,7 +1213,7 @@
 "model" "*66"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "416 -352 176"
 "angle" "270"
 "targetname" "t45"
@@ -2015,7 +2015,7 @@
 "targetname" "t65"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "1360 184 8"
 "angle" "270"
 "targetname" "t66"

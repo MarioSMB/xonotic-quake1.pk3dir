@@ -226,12 +226,12 @@
 {
 "targetname" "t11"
 "origin" "-160 -1104 24"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t12"
 "origin" "-16 -1296 24"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t14"
@@ -291,12 +291,12 @@
 {
 "targetname" "t19"
 "origin" "504 -1216 32"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t18"
 "origin" "704 -1216 32"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t24"
@@ -545,18 +545,18 @@
 "targetname" "t160"
 "angle" "315"
 "origin" "512 -456 264"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t150"
 "angle" "90"
 "origin" "576 -640 232"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t151"
 "angle" "45"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "520 -832 264"
 }
 {
@@ -1528,13 +1528,13 @@
 "targetname" "t183"
 "angle" "270"
 "origin" "384 672 328"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t185"
 "angle" "90"
 "origin" "376 8 328"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t167"
@@ -1792,7 +1792,7 @@
 "angle" "225"
 "targetname" "t184"
 "origin" "360 320 176"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t10"
@@ -1838,7 +1838,7 @@
 "targetname" "t187"
 "angle" "135"
 "origin" "128 1632 136"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "200"
@@ -1940,7 +1940,7 @@
 "targetname" "t192"
 "angle" "315"
 "origin" "144 400 360"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "200"
@@ -2385,7 +2385,7 @@
 "targetname" "t212"
 "angle" "135"
 "origin" "-8 -1768 328"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t13"

@@ -89,7 +89,7 @@
 {
 "targetname" "t1"
 "origin" "48 -32 424"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "250"
@@ -223,7 +223,7 @@
 "angle" "270"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-448 576 32"
 "angle" "90"
 "targetname" "t2"
@@ -671,7 +671,7 @@
 "angle" "0"
 "targetname" "t36"
 "origin" "-872 1408 584"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "spawnflags" "1"
@@ -751,13 +751,14 @@
 "wait" "3"
 "target" "t37"
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "model" "*10"
 }
 {
 "targetname" "t38"
 "angle" "270"
 "origin" "-1064 2680 216"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "spawnflags" "1"
@@ -787,6 +788,7 @@
 {
 "target" "t40"
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "model" "*13"
 }
 {
@@ -799,7 +801,7 @@
 "targetname" "t41"
 "angle" "0"
 "origin" "-1008 1384 584"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "spawnflags" "1"
@@ -928,7 +930,7 @@
 }
 {
 "targetname" "t43"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1216 1376 584"
 "angle" "0"
 }
@@ -936,11 +938,11 @@
 "targetname" "t44"
 "angle" "315"
 "origin" "-1440 1464 584"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t45"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1544 1760 584"
 "angle" "315"
 }
@@ -948,11 +950,11 @@
 "targetname" "t46"
 "angle" "270"
 "origin" "-1536 2048 584"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t47"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1312 2104 584"
 "angle" "180"
 }
@@ -960,11 +962,11 @@
 "targetname" "t48"
 "angle" "270"
 "origin" "-1216 2280 584"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t49"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1376 2432 584"
 "angle" "315"
 }
@@ -972,11 +974,11 @@
 "targetname" "t50"
 "angle" "270"
 "origin" "-1416 2624 584"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t51"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-1272 2680 608"
 "angle" "180"
 }
@@ -1154,20 +1156,10 @@
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "t62"
 "wait" "0.3"
 "model" "*34"
-}
-{
-"classname" "info_teleport_destination"
-"origin" "-784 1792 392"
-"targetname" "t63"
-}
-{
-"targetname" "t68"
-"classname" "trigger_teleport"
-"target" "t63"
-"model" "*35"
 }
 {
 "classname" "trap_spikeshooter"
@@ -1177,6 +1169,7 @@
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "0.3"
 "target" "t65"
 "model" "*36"
@@ -1188,6 +1181,7 @@
 }
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "0.3"
 "target" "t66"
 "model" "*37"
@@ -1209,7 +1203,7 @@
 {
 "targetname" "t67"
 "origin" "-1448 2680 456"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "classname" "trigger_secret"
@@ -1234,12 +1228,6 @@
 "classname" "qlight"
 "origin" "-632 2840 144"
 "light" "200"
-}
-{
-"targetname" "t68"
-"target" "t63"
-"classname" "trigger_teleport"
-"model" "*40"
 }
 {
 "origin" "-16 136 -152"
@@ -1285,12 +1273,7 @@
 "targetname" "t69"
 "angle" "270"
 "origin" "-768 2208 56"
-"classname" "info_teleport_destination"
-}
-{
-"spawnflags" "1792"
-"classname" "func_wall"
-"model" "*43"
+"classname" "misc_teleporter_dest"
 }
 {
 //"spawnflags" "2048"
@@ -1305,7 +1288,7 @@
 {
 "targetname" "t70"
 "origin" "0 8 368"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "250"

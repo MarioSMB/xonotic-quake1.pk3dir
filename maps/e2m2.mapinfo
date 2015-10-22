@@ -20,6 +20,17 @@ settemp_for_type all sv_player_scale 0.75
 
 settemp_for_type all g_monsters_respawn 0
 
+settemp_for_type all g_balance_contents_playerdamage_slime 10
+settemp_for_type all g_balance_contents_playerdamage_lava 20
+settemp_for_type all g_balance_contents_playerdamage_drowning 5
+
+settemp_for_type all g_balance_contents_damagerate 0.5
+
+settemp_for_type all g_pickup_shells_max 100
+settemp_for_type all g_pickup_nails_max 200
+settemp_for_type all g_pickup_rockets_max 100
+settemp_for_type all g_pickup_cells_max 100
+
 settemp_for_type all sv_defaultcharacter 1
 settemp_for_type all sv_defaultplayermodel models/player/quakeguy.dpm
 

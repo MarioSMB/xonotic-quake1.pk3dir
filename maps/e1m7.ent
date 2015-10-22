@@ -413,7 +413,7 @@
 "classname" "qlight"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-256 64 224"
 "targetname" "t8"
 "angle" "0"
@@ -585,7 +585,7 @@
 "targetname" "t15"
 "angle" "180"
 "origin" "944 56 -952"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "angle" "0"
@@ -729,13 +729,13 @@
 "targetname" "t18"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "128 192 320"
 "targetname" "t19"
 }
 {
 "origin" "128 -64 320"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "targetname" "t20"
 }
 {
@@ -795,26 +795,26 @@
 "model" "*33"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "352 128 224"
 "angle" "180"
 "targetname" "t23"
 }
 {
 "origin" "352 -32 224"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "angle" "180"
 "targetname" "t24"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "576 -96 312"
 "angle" "180"
 "targetname" "t26"
 }
 {
 "origin" "672 88 312"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "angle" "180"
 "targetname" "t25"
 }
@@ -847,13 +847,13 @@
 "model" "*35"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "248 352 216"
 "angle" "180"
 "targetname" "t29"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "560 -224 216"
 "angle" "180"
 "targetname" "t28"
@@ -894,13 +894,13 @@
 "model" "*38"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "688 352 200"
 "angle" "180"
 "targetname" "t31"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "128 -224 200"
 "angle" "180"
 "targetname" "t32"

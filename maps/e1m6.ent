@@ -342,7 +342,7 @@
 "classname" "qlight"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-32 1280 -328"
 "angle" "180"
 "targetname" "t6"
@@ -471,7 +471,7 @@
 "targetname" "t12"
 "angle" "180"
 "origin" "352 868 12"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "origin" "-96 1280 216"
@@ -754,7 +754,7 @@
 "angle" "0"
 "targetname" "t32"
 "origin" "-96 800 208"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "classname" "qlight"
@@ -1089,7 +1089,7 @@
 "spawnflags" "256"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-648 248 312"
 "angle" "90"
 "targetname" "t53"
@@ -2138,7 +2138,7 @@
 "angle" "270"
 "targetname" "t89"
 "origin" "-704 1856 -504"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t90"
@@ -2215,11 +2215,11 @@
 "targetname" "t93"
 "angle" "0"
 "origin" "-392 1412 344"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t92"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-456 1296 296"
 "angle" "0"
 }
@@ -2227,7 +2227,7 @@
 "targetname" "t91"
 "angle" "0"
 "origin" "-388 1168 184"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t94"
@@ -2257,7 +2257,7 @@
 "targetname" "t95"
 "angle" "180"
 "origin" "272 704 16"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "classname" "monster_demon1"
@@ -2280,7 +2280,7 @@
 "model" "*94"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "224 608 8"
 "angle" "270"
 "targetname" "t97"
@@ -2446,7 +2446,7 @@
 "model" "*99"
 }
 {
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 "origin" "-96 1408 216"
 "targetname" "t100"
 "angle" "270"

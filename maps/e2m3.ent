@@ -598,7 +598,7 @@
 "targetname" "t4"
 "angle" "180"
 "origin" "120 -32 -112"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "200"
@@ -2456,7 +2456,7 @@
 {
 "targetname" "t38"
 "origin" "1144 1776 -88"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "map" "e2m7"

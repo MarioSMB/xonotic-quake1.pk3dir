@@ -791,7 +791,7 @@
 "targetname" "t6"
 "angle" "180"
 "origin" "672 280 8"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t6"
@@ -807,7 +807,7 @@
 "targetname" "t7"
 "angle" "45"
 "origin" "568 448 40"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t8"
@@ -818,7 +818,7 @@
 "targetname" "t8"
 "angle" "270"
 "origin" "464 600 8"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "220"
@@ -874,7 +874,7 @@
 "targetname" "t9"
 "angle" "90"
 "origin" "-192 -1216 -72"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "origin" "-192 -1008 -80"
@@ -1595,7 +1595,7 @@
 "targetname" "t23"
 "angle" "0"
 "origin" "-72 -576 8"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "target" "t25"

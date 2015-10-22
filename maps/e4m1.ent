@@ -1569,7 +1569,7 @@
 "targetname" "t53"
 "angle" "0"
 "origin" "1120 1224 96"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "150"
@@ -1659,7 +1659,7 @@
 "targetname" "t60"
 "angle" "90"
 "origin" "752 424 428"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t69"
@@ -2023,7 +2023,7 @@
 "targetname" "t85"
 "angle" "90"
 "origin" "1664 824 88"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "targetname" "t86"

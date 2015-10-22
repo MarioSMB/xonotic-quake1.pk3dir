@@ -359,7 +359,7 @@
 "targetname" "t1"
 "angle" "90"
 "origin" "544 1536 16"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "250"
@@ -1175,7 +1175,7 @@
 "targetname" "t4"
 "angle" "90"
 "origin" "544 280 16"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 ////"spawnflags" "2048"
@@ -1355,9 +1355,15 @@
 "classname" "qlight"
 }
 {
-"map" "e4m1"
-"classname" "trigger_changelevel"
-"spawnflags" "1"
+"classname" "target_changelevel"
+"origin" "2016 1728 -180"
+"chmap" "e4m1"
+"spawnflags" "2"
+"targetname" "e4m1"
+}
+{
+"classname" "trigger_multiple"
+"target" "e4m1"
 "model" "*27"
 }
 {
@@ -1712,9 +1718,15 @@
 "angle" "90"
 }
 {
-"spawnflags" "1"
-"classname" "trigger_changelevel"
-"map" "end"
+"spawnflags" "2"
+"origin" "-96 1608 -260"
+"classname" "target_changelevel"
+"chmap" "end"
+"targetname" "end"
+}
+{
+"classname" "trigger_multiple"
+"target" "end"
 "model" "*40"
 }
 {
@@ -1797,7 +1809,7 @@
 "spawnflags" "1792"
 "angle" "270"
 "origin" "-104 1976 -376"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "spawnflags" "1792"
@@ -1818,11 +1830,6 @@
 "spawnflags" "1793"
 "origin" "-200 1912 -384"
 "classname" "item_cells"
-}
-{
-"spawnflags" "1792"
-"classname" "func_wall"
-"model" "*47"
 }
 {
 "spawnflags" "1792"
@@ -1855,7 +1862,7 @@
 "targetname" "t8"
 "angle" "180"
 "origin" "1224 1728 112"
-"classname" "info_teleport_destination"
+"classname" "misc_teleporter_dest"
 }
 {
 "light" "250"
