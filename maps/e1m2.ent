@@ -654,9 +654,9 @@
 {
 "target" "t122"
 ////"spawnflags" "2048"
-"sounds" "1"
 "itemkeys" "2"
 "classname" "item_key"
+"noise" "misc/medkey.wav"
 "origin" "880 -300 464"
 }
 {
@@ -2387,6 +2387,9 @@
 {
 "sounds" "3"
 "spawnflags" "16"
+"noise" "quake_misc/talk.wav"
+"noise2" "doors/meduse.wav"
+"noise3" "doors/medtry.wav"
 "angle" "0"
 "wait" "-1"
 "classname" "func_door"
@@ -2394,6 +2397,9 @@
 }
 {
 "spawnflags" "16"
+"noise" "quake_misc/talk.wav"
+"noise2" "doors/meduse.wav"
+"noise3" "doors/medtry.wav"
 "wait" "-1"
 "angle" "180"
 "classname" "func_door"
@@ -2684,6 +2690,7 @@
 }
 {
 "message" "This door is opened elsewhere..."
+"noise" "quake_misc/talk.wav"
 "classname" "func_door"
 "sounds" "3"
 "angle" "180"
@@ -3025,6 +3032,7 @@
 {
 "classname" "trigger_once"
 "message" "Pass through the arch to exit..."
+"noise" "quake_misc/talk.wav"
 "model" "*57"
 }
 {

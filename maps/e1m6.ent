@@ -1299,7 +1299,6 @@
 "origin" "-544 1800 -376"
 "light" "200"
 }
-}
 {
 "classname" "weapon_qrocketlauncher"
 "origin" "-696 1008 -256"

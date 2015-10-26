@@ -2,7 +2,6 @@
 "message" "the Grisly Grotto"
 "worldtype" "0"
 "classname" "worldspawn"
-
 "sounds" "5"
 }
 {
@@ -2785,11 +2784,6 @@
 "origin" "-256 2096 1218"
 "classname" "weapon_supershotgun"
 }
-
-
-
-
-
 {
 "spawnflags" "1792"
 "origin" "704 1344 912"
@@ -2913,11 +2907,6 @@
 "origin" "928 2664 320"
 "spawnflags" "1"
 }
-//{
-//"classname" "item_shells"
-//"origin" "1240 768 1384"
-//"spawnflags" "1"
-//}
 {
 "classname" "item_shells"
 "origin" "-88 2160 1224"
