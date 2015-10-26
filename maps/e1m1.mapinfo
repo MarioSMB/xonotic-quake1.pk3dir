@@ -7,6 +7,9 @@ cdtrack track006
 has weapons
 gametype dm timelimit=0 pointlimit=0
 
+settemp_for_type all g_balance_blaster_weaponstart 0
+settemp_for_type all g_balance_axe_weaponstart 1
+
 //settemp_for_type all sv_persistent_inventory 1
 
 settemp_for_type all g_physics_clientselect 1

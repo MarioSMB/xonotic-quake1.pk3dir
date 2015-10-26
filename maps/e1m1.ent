@@ -1148,11 +1148,11 @@
 {
 "message" "You must press the three buttons..."
 "spawnflags" "4"
-"sounds" "2"
 "wait" "-1"
 "targetname" "t10"
 "angle" "180"
 "classname" "func_door"
+"noise" "quake_misc/talk.wav"
 "model" "*29"
 }
 {
@@ -1269,6 +1269,7 @@
 {
 "speed" "300"
 "message" "This door opens elsewhere..."
+"noise" "quake_misc/talk.wav"
 "spawnflags" "4"
 "targetname" "t15"
 "angle" "270"
@@ -1677,6 +1678,7 @@
 "spawnflags" "1"
 "angle" "0"
 "classname" "func_door_secret"
+"noise" "quake_misc/talk.wav"
 "model" "*43"
 }
 {
@@ -1839,8 +1841,8 @@
 {
 "spawnflags" "16384"
 "wait" "5"
-"sounds" "2"
 "message" "You can jump across..."
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
 "targetname" "t32"
 "model" "*50"
@@ -1849,7 +1851,7 @@
 "spawnflags" "16384"
 "wait" "5"
 "message" "You can jump up here..."
-"sounds" "2"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
 "targetname" "t31"
 "model" "*51"
@@ -1916,9 +1918,9 @@
 {
 "wait" "5"
 "message" "Walk into the slipgate to exit."
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
 "spawnflags" "16384"
-"sounds" "2"
 "angle" "270"
 "model" "*53"
 }
