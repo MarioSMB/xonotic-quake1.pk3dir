@@ -1,0 +1,8 @@
+//TAG: fish
+//death sound/monsters/fish/death 0
+//sight sound/monsters/fish/sight 0
+//ranged sound/monsters/fish/ranged 0
+melee sound/monsters/fish/melee 0
+//pain sound/monsters/fish/pain 0
+//spawn sound/monsters/fish/spawn 0
+//idle sound/monsters/fish/idle 0

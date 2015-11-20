@@ -1,0 +1,8 @@
+//TAG: demon
+death sound/monsters/demon/death 0
+sight sound/monsters/demon/sight 0
+ranged sound/monsters/demon/ranged 0
+melee sound/monsters/demon/melee 0
+pain sound/monsters/demon/pain 0
+//spawn sound/monsters/demon/spawn 0
+idle sound/monsters/demon/idle 0

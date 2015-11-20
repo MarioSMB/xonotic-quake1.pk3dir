@@ -1,0 +1,8 @@
+//TAG: ogre
+death sound/monsters/ogre/death 0
+sight sound/monsters/ogre/sight 0
+//ranged sound/monsters/ogre/ranged 0
+melee sound/monsters/ogre/melee 0
+pain sound/monsters/ogre/pain 0
+spawn sound/monsters/ogre/spawn 0
+idle sound/monsters/ogre/idle 3

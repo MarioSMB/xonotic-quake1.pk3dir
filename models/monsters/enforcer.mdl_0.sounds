@@ -1,0 +1,8 @@
+//TAG: enforcer
+death sound/monsters/enforcer/death 0
+sight sound/monsters/enforcer/sight 4
+ranged sound/monsters/enforcer/ranged 0
+//melee sound/monsters/enforcer/melee 0
+//pain sound/monsters/enforcer/pain 0
+//spawn sound/monsters/enforcer/spawn 0
+idle sound/monsters/enforcer/idle 0

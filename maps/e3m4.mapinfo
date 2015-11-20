@@ -7,6 +7,8 @@ cdtrack track003
 has weapons
 gametype dm timelimit=0 pointlimit=0
 
+settemp_for_type all g_monsters_quake_resize 0
+
 settemp_for_type all g_balance_blaster_weaponstart 0
 settemp_for_type all g_balance_axe_weaponstart 1
 

@@ -1,0 +1,8 @@
+//TAG: dog
+death sound/monsters/dog/death 0
+sight sound/monsters/dog/sight 0
+//ranged sound/monsters/dog/ranged 0
+melee sound/monsters/dog/melee 0
+pain sound/monsters/dog/pain 0
+//spawn sound/monsters/dog/spawn 0
+idle sound/monsters/dog/idle 0
