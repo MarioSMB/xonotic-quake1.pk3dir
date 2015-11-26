@@ -436,6 +436,8 @@
 "targetname" "t9"
 "angle" "270"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*8"
 }
 {
@@ -444,6 +446,8 @@
 "targetname" "t9"
 "angle" "90"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*9"
 }
 {
@@ -504,6 +508,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "1"
 "targetname" "t12"
 "angle" "-1"
@@ -514,6 +520,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "1"
 "targetname" "t13"
 "angle" "-1"
@@ -907,6 +915,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-2"
 "wait" "-1"
 "sounds" "3"

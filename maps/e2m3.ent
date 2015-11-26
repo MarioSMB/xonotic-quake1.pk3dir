@@ -333,6 +333,8 @@
 "spawnflags" "2049"
 "angle" "0"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*2"
 }
 {
@@ -443,6 +445,8 @@
 "wait" "-1"
 "targetname" "t3"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "90"
 "model" "*5"
 }
@@ -451,6 +455,8 @@
 "wait" "-1"
 "angle" "270"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "message" "This door opens nearby..."
 "model" "*6"
 }
@@ -682,6 +688,8 @@
 "spawnflags" "2049"
 "angle" "180"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*9"
 }
 {
@@ -716,6 +724,8 @@
 "wait" "-1"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*11"
 }
 {
@@ -725,6 +735,8 @@
 "wait" "-1"
 "angle" "90"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*12"
 }
 {
@@ -770,6 +782,8 @@
 "wait" "-1"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*13"
 }
 {
@@ -819,6 +833,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-1"
 "targetname" "t6"
 "speed" "400"
@@ -828,6 +844,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-1"
 "targetname" "t6"
 "speed" "400"
@@ -837,6 +855,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-1"
 "targetname" "t6"
 "speed" "400"
@@ -893,6 +913,8 @@
 {
 "wait" "-1"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "0"
 "spawnflags" "2056"
 "model" "*18"
@@ -900,6 +922,8 @@
 {
 "wait" "-1"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "180"
 "spawnflags" "2056"
 "model" "*19"
@@ -1021,6 +1045,8 @@
 {
 "wait" "-1"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "90"
 "spawnflags" "2049"
 "targetname" "t7"
@@ -1225,6 +1251,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-2"
 "spawnflags" "1"
 "targetname" "t11"
@@ -1552,6 +1580,8 @@
 "dmg" "20"
 "angle" "180"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*28"
 }
 {
@@ -1562,6 +1592,8 @@
 "lip" "16"
 "spawnflags" "5"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "sounds" "1"
 "model" "*29"
 }
@@ -1820,6 +1852,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "270"
 "targetname" "t31"
 "wait" "-1"
@@ -1831,12 +1865,16 @@
 "sounds" "1"
 "speed" "300"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "90"
 "model" "*33"
 }
 {
 "speed" "300"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "270"
 "wait" "-1"
 "model" "*34"
@@ -1979,6 +2017,8 @@
 {
 "sounds" "3"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-2"
 "spawnflags" "3585"
 "wait" "90"
@@ -1988,6 +2028,8 @@
 {
 "sounds" "3"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "targetname" "t6"
 "spawnflags" "3585"
 "angle" "-2"
@@ -1997,6 +2039,8 @@
 {
 "sounds" "3"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "0"
 "spawnflags" "1537"
 "targetname" "t6"
@@ -2494,6 +2538,8 @@
 "sounds" "4"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*58"
 }
 {

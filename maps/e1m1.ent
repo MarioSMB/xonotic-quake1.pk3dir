@@ -72,6 +72,8 @@
 "sounds" "2"
 "angle" "270"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "4"
 "model" "*1"
 }
@@ -79,6 +81,8 @@
 "speed" "400"
 "angle" "90"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "4"
 "model" "*2"
 }
@@ -151,6 +155,8 @@
 "sounds" "2"
 "targetname" "t1"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "4"
 "dmg" "10"
 "model" "*3"
@@ -239,6 +245,8 @@
 {
 "sounds" "2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "4"
 "angle" "180"
 "speed" "400"
@@ -246,6 +254,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "4"
 "angle" "0"
 "speed" "400"
@@ -360,6 +370,8 @@
 {
 "sounds" "1"
 "classname" "func_plat"
+"noise" "quake_plats/plat1.wav"
+"noise1" "quake_plats/plat2.wav"
 "model" "*7"
 }
 {
@@ -425,6 +437,8 @@
 "targetname" "t2"
 "angle" "270"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "5"
 "model" "*8"
 }
@@ -728,6 +742,8 @@
 }
 {
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "targetname" "t4"
 "angle" "-2"
 "spawnflags" "5"
@@ -744,6 +760,8 @@
 {
 "spawnflags" "5"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "90"
 "targetname" "t5"
 "wait" "-1"
@@ -991,6 +1009,8 @@
 "angle" "-1"
 "sounds" "1"
 "classname" "func_plat"
+"noise" "quake_plats/plat1.wav"
+"noise1" "quake_plats/plat2.wav"
 "model" "*22"
 }
 {
@@ -1152,6 +1172,8 @@
 "targetname" "t10"
 "angle" "180"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "noise" "quake_misc/talk.wav"
 "model" "*29"
 }
@@ -1199,11 +1221,15 @@
 "spawnflags" "5"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*34"
 }
 {
 "targetname" "t12"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-2"
 "spawnflags" "5"
 "wait" "-1"
@@ -1217,11 +1243,15 @@
 "spawnflags" "5"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*36"
 }
 {
 "targetname" "t14"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-2"
 "spawnflags" "5"
 "wait" "-1"
@@ -1274,6 +1304,8 @@
 "targetname" "t15"
 "angle" "270"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "wait" "-1"
 "model" "*38"
 }

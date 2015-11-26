@@ -1535,6 +1535,8 @@
 "message" "This air tube is sealed..."
 "speed" "30"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "wait" "-1"
 "angle" "-2"
 "lip" "8"
@@ -1571,6 +1573,8 @@
 "angle" "-2"
 "wait" "-1"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "spawnflags" "2048"
 "model" "*18"
 }
@@ -1580,6 +1584,8 @@
 "speed" "500"
 "angle" "-1"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "wait" "-1"
 "model" "*19"
 }
@@ -1590,6 +1596,8 @@
 "angle" "-1"
 "speed" "500"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*20"
 }
 {
@@ -1835,6 +1843,8 @@
 "targetname" "t30"
 "message" "This air tube is sealed..."
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "wait" "-1"
 "angle" "-2"
 "lip" "8"
@@ -1924,6 +1934,8 @@
 "message" "These bars are opened elsewhere..."
 "targetname" "t28"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-1"
 "wait" "-1"
 "sounds" "4"
@@ -1972,6 +1984,8 @@
 "wait" "-1"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*26"
 }
 {
@@ -2120,6 +2134,8 @@
 "wait" "-1"
 "angle" "180"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "lip" "64"
 "spawnflags" "32"
 "model" "*32"
@@ -2316,6 +2332,8 @@
 "wait" "-1"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "model" "*38"
 }
 {
@@ -2594,6 +2612,8 @@
 "spawnflags" "2048"
 "lip" "64"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "angle" "-2"
 "wait" "-1"
 "sounds" "4"
@@ -2698,6 +2718,8 @@
 "wait" "-1"
 "angle" "-2"
 "classname" "func_door"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
 "lip" "64"
 "spawnflags" "2048"
 "targetname" "t28"
