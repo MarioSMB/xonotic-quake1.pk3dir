@@ -1,1 +1,7 @@
 .DS_Store
+*.h1
+*.h2
+*.pts
+*.prt
+*.exe
+*.o

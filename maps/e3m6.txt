@@ -1,0 +1,5 @@
+To compile this map, temporarily change the following in build-maps.sh from:
+../../quake/id1/qbsp/qbsp ../../quake/id1/$1
+To:
+../../quake/id1/qbsp/qbsp -notjunc ../../quake/id1/$1
+Then compile the map with ./build-maps.sh -s e3m6 and undo the above change when finished
