@@ -1,0 +1,42 @@
+title Quake 1: Episode 2, Level 10
+description the Dismal Oubliette
+author ID Software
+hidden
+noautomaplist
+cdtrack track006
+has weapons
+gametype dm timelimit=0 pointlimit=0
+
+settemp_for_type all g_monsters_quake_resize 0
+
+settemp_for_type all g_balance_blaster_weaponstart 0
+settemp_for_type all g_balance_axe_weaponstart 1
+
+settemp_for_type all g_physics_clientselect 1
+settemp_for_type all g_physics_clientselect_options "quake"
+settemp_for_type all g_physics_clientselect_default quake
+settemp_for_type all sv_stepheight 22
+
+settemp_for_type all sv_player_maxs "16 16 32"
+settemp_for_type all sv_player_viewoffset "0 0 22"
+settemp_for_type all sv_player_crouch_viewoffset "0 0 16"
+settemp_for_type all sv_player_crouch_maxs "16 16 16"
+settemp_for_type all sv_player_scale 0.75
+
+settemp_for_type all g_monsters_respawn 0
+
+settemp_for_type all g_balance_contents_playerdamage_slime 10
+settemp_for_type all g_balance_contents_playerdamage_lava 20
+settemp_for_type all g_balance_contents_playerdamage_drowning 5
+
+settemp_for_type all g_balance_contents_damagerate 0.5
+
+settemp_for_type all g_pickup_shells_max 100
+settemp_for_type all g_pickup_nails_max 200
+settemp_for_type all g_pickup_rockets_max 100
+settemp_for_type all g_pickup_cells_max 100
+
+settemp_for_type all sv_defaultcharacter 1
+settemp_for_type all sv_defaultplayermodel models/player/quakeguy.dpm
+
+

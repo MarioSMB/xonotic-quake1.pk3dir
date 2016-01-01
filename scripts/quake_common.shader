@@ -1,4 +1,4 @@
-quake_clip
+clip
 {
     qer_trans 0.40
     surfaceparm nodraw
