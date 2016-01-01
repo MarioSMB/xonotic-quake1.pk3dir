@@ -2,7 +2,6 @@
 // entity 0
 {
 "classname" "worldspawn"
-"sounds" "4"
 "wad" "gfx/start.wad"
 "message" "Introduction"
 "worldtype" "0"
