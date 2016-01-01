@@ -10,6 +10,8 @@ settemp_for_type all g_monsters_quake_resize 0
 settemp_for_type all g_balance_blaster_weaponstart 0
 settemp_for_type all g_balance_axe_weaponstart 1
 
+//settemp_for_type all sv_persistent_inventory 1
+
 settemp_for_type all g_physics_clientselect 1
 settemp_for_type all g_physics_clientselect_options "quake"
 settemp_for_type all g_physics_clientselect_default quake
@@ -38,5 +40,3 @@ settemp_for_type all sv_defaultcharacter 1
 settemp_for_type all sv_defaultplayermodel models/player/quakeguy.dpm
 
 
-// Copyright for original BSP files goes to ID Software, please don't sue!
-// TODO: Make the GPL'd map sources work

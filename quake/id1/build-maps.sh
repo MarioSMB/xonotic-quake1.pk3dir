@@ -2,9 +2,9 @@
 # build-map.sh
 compile_map() {
     # qbsp wants to see its precious quake directory
-    ../../quake/id1/qbsp/qbsp ../../quake/id1/$1
-    ../../quake/id1/qbsp/vis ../../quake/id1/$1
-    ../../quake/id1/qbsp/light ../../quake/id1/$1
+    ./qbsp/qbsp ../../quake/id1/$1
+    ./qbsp/vis ../../quake/id1/$1
+    ./qbsp/light ../../quake/id1/$1
 }
 copy_map() {
 	cp $1 ../../maps/

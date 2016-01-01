@@ -40,5 +40,3 @@ settemp_for_type all sv_defaultcharacter 1
 settemp_for_type all sv_defaultplayermodel models/player/quakeguy.dpm
 
 
-// Copyright for original BSP files goes to ID Software, please don't sue!
-// TODO: Make the GPL'd map sources work
