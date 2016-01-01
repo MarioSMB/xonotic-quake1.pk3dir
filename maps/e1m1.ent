@@ -1167,11 +1167,10 @@
 }
 {
 "message" "You must press the three buttons..."
-"spawnflags" "4"
 "wait" "-1"
 "targetname" "t10"
-"angle" "180"
 "classname" "func_door"
+"spawnflags" "4"
 "noise2" "quake_plats/medplat1.wav"
 "noise1" "quake_plats/medplat2.wav"
 "noise" "quake_misc/talk.wav"
@@ -1302,7 +1301,6 @@
 "noise" "quake_misc/talk.wav"
 "spawnflags" "4"
 "targetname" "t15"
-"angle" "270"
 "classname" "func_door"
 "noise2" "quake_plats/medplat1.wav"
 "noise1" "quake_plats/medplat2.wav"
@@ -1708,7 +1706,6 @@
 {
 "message" "Shoot this secret door..."
 "spawnflags" "1"
-"angle" "0"
 "classname" "func_door_secret"
 "noise" "quake_misc/talk.wav"
 "model" "*43"
@@ -1871,7 +1868,6 @@
 "origin" "136 1272 -320"
 }
 {
-"spawnflags" "16384"
 "wait" "5"
 "message" "You can jump across..."
 "noise" "quake_misc/talk.wav"
@@ -1880,7 +1876,6 @@
 "model" "*50"
 }
 {
-"spawnflags" "16384"
 "wait" "5"
 "message" "You can jump up here..."
 "noise" "quake_misc/talk.wav"
@@ -1953,7 +1948,6 @@
 "noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
 "spawnflags" "16384"
-"angle" "270"
 "model" "*53"
 }
 {

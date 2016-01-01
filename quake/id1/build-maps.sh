@@ -6,23 +6,23 @@ compile_map() {
     ./qbsp/vis ../../quake/id1/$1
     ./qbsp/light ../../quake/id1/$1
 }
-copy_map() {
-	cp $1 ../../maps/
+move_map() {
+	mv $1 ../../maps/
 }
 build_single() {
-    echo "[ COMPILING ] Single map: $2"
+    echo "[ COMPILING ] Single map: $1"
     compile_map "maps/"$1".map"
-    echo "[ COPYING ] Single map: $2"
-    copy_map "maps/"$1".map"
+    echo "[ MOVING ] Single map: $1"
+    move_map "maps/"$1".bsp"
 }
 build_all() {
     echo "[ COMPILING ] All maps";
     for m in $(ls maps/*.map | grep -v ".autosave"); do
         compile_map $m
     done
-    echo "[ COPYING ] All maps";
+    echo "[ MOVING ] All maps";
     for m in $(ls maps/*.bsp); do
-        copy_map $m
+        move_map $m
     done
 }
 delete_bsps() {

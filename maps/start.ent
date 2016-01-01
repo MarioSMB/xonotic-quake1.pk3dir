@@ -1,5 +1,4 @@
 {
-"sounds" "4"
 "classname" "worldspawn"
 "message" "Introduction"
 }
@@ -257,6 +256,7 @@
 }
 {
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "target" "t1"
 "model" "*1"
 }
@@ -267,6 +267,7 @@
 }
 {
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "target" "t1"
 "model" "*2"
 }
@@ -276,6 +277,7 @@
 }
 {
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "target" "t1"
 "model" "*3"
 }
@@ -358,8 +360,9 @@
 {
 "targetname" "t1"
 "angle" "90"
-"origin" "544 1536 16"
+"origin" "544 1536 32"
 "classname" "misc_teleporter_dest"
+"speed" "-1"
 }
 {
 "light" "250"
@@ -575,7 +578,6 @@
 "model" "*4"
 }
 {
-"targetname" "t3"
 "speed" "400"
 "sounds" "3"
 "angle" "270"
@@ -934,7 +936,6 @@
 "model" "*6"
 }
 {
-"targetname" "t2"
 "speed" "50"
 "angle" "90"
 "classname" "func_door"
@@ -1054,12 +1055,6 @@
 "origin" "-432 2504 392"
 }
 {
-"wait" "-1"
-"target" "t2"
-"classname" "trigger_multiple"
-"model" "*8"
-}
-{
 "message" "0"
 "classname" "trigger_setskill"
 "model" "*9"
@@ -1090,33 +1085,6 @@
 "model" "*14"
 }
 {
-"classname" "target_changelevel"
-"chmap" "e2m1"
-"targetname" "e2m1"
-"spawnflags" "2"
-"origin" "1004 1040 120"
-}
-{
-"classname" "target_changelevel"
-"chmap" "e3m1"
-"targetname" "e3m1"
-"spawnflags" "2"
-"origin" "1000 1048 120"
-}
-{
-"classname" "target_changelevel"
-"chmap" "e1m1"
-"targetname" "e1m1"
-"spawnflags" "2"
-"origin" "1004 1048 120"
-}
-{
-"wait" "5"
-"target" "t3"
-"classname" "trigger_multiple"
-"model" "*15"
-}
-{
 "spawnflags" "1"
 "angle" "180"
 "origin" "1004 1048 124"
@@ -1141,27 +1109,33 @@
 "angle" "0"
 }
 {
-////"spawnflags" "2048"
 "wait" "2"
 "message" "This hall selects NORMAL skill"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
-"angle" "90"
 "model" "*16"
 }
 {
-////"spawnflags" "2048"
 "wait" "2"
 "message" "This hall selects EASY skill"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
-"angle" "90"
 "model" "*17"
 }
 {
-////"spawnflags" "2048"
 "wait" "2"
 "message" "This hall selects HARD skill"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
-"angle" "90"
 "model" "*18"
 }
 {
@@ -1177,20 +1151,24 @@
 {
 "target" "t4"
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "model" "*19"
 }
 {
 "targetname" "t4"
 "angle" "90"
-"origin" "544 280 16"
+"origin" "544 280 32"
 "classname" "misc_teleporter_dest"
+"speed" "-1"
 }
 {
-////"spawnflags" "2048"
 "classname" "trigger_multiple"
 "wait" "2"
 "message" "This is the first episode:\nDimension of the Doomed\n\nThe mystical past comes alive..."
-"angle" "180"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "model" "*20"
 }
 {
@@ -1221,35 +1199,43 @@
 "light" "200"
 }
 {
-////"spawnflags" "2048"
 "wait" "2"
 "message" "Walk into the Slipgate\nto start playing Quake!"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
-"angle" "270"
 "model" "*21"
 }
 {
-////"spawnflags" "2048"
 "message" "This is the fourth episode:\nThe Elder World\n\nYour worst nightmares come true..."
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "wait" "2"
 "classname" "trigger_multiple"
-"angle" "360"
 "model" "*22"
 }
 {
-////"spawnflags" "2048"
 "wait" "2"
 "message" "This is the third episode:\nThe Netherworld\n\nPrimal fear in a strange dimension..."
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
-"angle" "90"
 "model" "*23"
 }
 {
-////"spawnflags" "2048"
 "message" "This is the second episode:\nThe Realm of Black Magic\n\nAncient castles and\nstrange beasts ahead..."
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "wait" "2"
 "classname" "trigger_multiple"
-"angle" "90"
 "model" "*24"
 }
 {
@@ -1277,6 +1263,7 @@
 {
 "target" "t1"
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "model" "*25"
 }
 {
@@ -1297,7 +1284,6 @@
 "classname" "qlight"
 }
 {
-"targetname" "t5"
 "wait" "-1"
 "sounds" "3"
 "speed" "50"
@@ -1365,15 +1351,8 @@
 "classname" "qlight"
 }
 {
-"classname" "target_changelevel"
-"origin" "2016 1728 -180"
-"chmap" "e4m1"
-"spawnflags" "2"
-"targetname" "e4m1"
-}
-{
-"classname" "trigger_multiple"
 "target" "e4m1"
+"classname" "trigger_multiple"
 "model" "*27"
 }
 {
@@ -1398,12 +1377,6 @@
 "spawnflags" "1"
 }
 {
-"wait" "5"
-"target" "t5"
-"classname" "trigger_multiple"
-"model" "*28"
-}
-{
 "light" "160"
 "origin" "1776 1824 -224"
 "classname" "qlight"
@@ -1414,17 +1387,14 @@
 "light" "160"
 }
 {
-////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*29"
 }
 {
-"spawnflags" "1792"
 "origin" "1104 1728 16"
 "classname" "item_armorInv"
 }
 {
-"spawnflags" "1792"
 "origin" "1940 1728 -268"
 "classname" "weapon_qsupernailgun"
 }
@@ -1434,24 +1404,20 @@
 "classname" "item_spikes"
 }
 {
-"spawnflags" "1792"
 "origin" "800 2320 64"
 "classname" "weapon_qrocketlauncher"
 }
 {
-"spawnflags" "1792"
 "origin" "1392 3120 208"
 "classname" "item_rockets"
 }
 {
 "classname" "item_rockets"
 "origin" "1664 3120 208"
-"spawnflags" "1792"
 }
 {
-"spawnflags" "1792"
 "origin" "-96 2368 64"
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_qgrenadelauncher"
 }
 {
 "spawnflags" "1793"
@@ -1459,14 +1425,12 @@
 "classname" "item_rockets"
 }
 {
-"spawnflags" "1792"
 "origin" "-528 2480 112"
 "classname" "item_armor2"
 }
 {
-"spawnflags" "1792"
 "origin" "-200 1552 80"
-"classname" "weapon_supershotgun"
+"classname" "weapon_qsupershotgun"
 }
 {
 "spawnflags" "1793"
@@ -1474,7 +1438,6 @@
 "classname" "item_shells"
 }
 {
-"spawnflags" "1792"
 "origin" "864 1232 -32"
 "classname" "weapon_qnailgun"
 }
@@ -1484,12 +1447,10 @@
 "classname" "item_spikes"
 }
 {
-"spawnflags" "1792"
 "origin" "320 1312 -32"
 "classname" "item_health"
 }
 {
-"spawnflags" "1792"
 "origin" "640 1312 -32"
 "classname" "item_health"
 }
@@ -1499,29 +1460,25 @@
 "classname" "item_health"
 }
 {
-"spawnflags" "1792"
 "classname" "func_wall"
 "model" "*30"
 }
 {
 "classname" "func_wall"
-"spawnflags" "1792"
 "model" "*31"
 }
 {
-"spawnflags" "1792"
 "classname" "func_wall"
 "model" "*32"
 }
 {
 "classname" "func_wall"
-"spawnflags" "1792"
 "model" "*33"
 }
 {
-////"spawnflags" "2048"
 "target" "t1"
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "model" "*34"
 }
 {
@@ -1551,7 +1508,6 @@
 "classname" "qlight"
 }
 {
-////"spawnflags" "2048"
 "message" "3"
 "classname" "trigger_setskill"
 "model" "*35"
@@ -1559,7 +1515,10 @@
 {
 "wait" "2"
 "message" "This passage selects NIGHTMARE skill!"
-"angle" "180"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "classname" "trigger_multiple"
 "model" "*36"
 }
@@ -1578,6 +1537,10 @@
 "wait" "3"
 "health" "1"
 "message" "The Well of Wishes awaits in\nthe Crypt of Decay!"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "sounds" "1"
 "model" "*37"
 }
@@ -1654,10 +1617,12 @@
 "light" "400"
 }
 {
-////"spawnflags" "2048"
 "classname" "trigger_multiple"
-"angle" "270"
 "message" "Shub-Niggurath awaits you..."
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "sounds" "2"
 "wait" "5"
 "model" "*39"
@@ -1728,6 +1693,27 @@
 "angle" "90"
 }
 {
+"classname" "target_changelevel"
+"chmap" "e2m1"
+"targetname" "e2m1"
+"spawnflags" "2"
+"origin" "1004 1040 120"
+}
+{
+"classname" "target_changelevel"
+"chmap" "e3m1"
+"targetname" "e3m1"
+"spawnflags" "2"
+"origin" "1000 1048 120"
+}
+{
+"classname" "target_changelevel"
+"chmap" "e1m1"
+"targetname" "e1m1"
+"spawnflags" "2"
+"origin" "1004 1048 120"
+}
+{
 "spawnflags" "2"
 "origin" "-96 1608 -260"
 "classname" "target_changelevel"
@@ -1765,27 +1751,39 @@
 "classname" "info_player_coop"
 }
 {
-"spawnflags" "2049"
+"spawnflags" "5"
 "classname" "func_episodegate"
 "message" "The Doomed Dimension\nhas been completed!"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "model" "*41"
 }
 {
-"spawnflags" "2056"
+"spawnflags" "8"
 "classname" "func_episodegate"
 "message" "The Elder World\nhas been completed!"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "model" "*42"
 }
 {
-"spawnflags" "2052"
 "classname" "func_episodegate"
 "message" "The Netherworld\nhas been completed!"
+"spawnflags" "4"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "model" "*43"
 }
 {
-"spawnflags" "2050"
+"spawnflags" "6"
 "classname" "func_episodegate"
 "message" "The Realm of Black Magic\nhas been completed!"
+"noise2" "quake_plats/medplat1.wav"
+"noise1" "quake_plats/medplat2.wav"
+"noise" "quake_misc/talk.wav"
 "model" "*44"
 }
 {
@@ -1794,9 +1792,8 @@
 "classname" "qlight"
 }
 {
-"spawnflags" "1792"
 "origin" "1544 2928 208"
-"classname" "weapon_lightning"
+"classname" "weapon_qlightning"
 }
 {
 "spawnflags" "1793"
@@ -1810,24 +1807,22 @@
 }
 {
 "target" "t7"
-"spawnflags" "1792"
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "model" "*45"
 }
 {
 "targetname" "t7"
-"spawnflags" "1792"
 "angle" "270"
-"origin" "-104 1976 -376"
+"origin" "-104 1976 -370"
 "classname" "misc_teleporter_dest"
+"speed" "-1"
 }
 {
-"spawnflags" "1792"
 "classname" "func_wall"
 "model" "*46"
 }
 {
-"spawnflags" "1792"
 "origin" "64 1872 -360"
 "classname" "item_artifact_super_damage"
 }
@@ -1842,12 +1837,14 @@
 "classname" "item_cells"
 }
 {
-"spawnflags" "1792"
+"classname" "func_wall"
+"model" "*47"
+}
+{
 "origin" "536 2144 -224"
 "classname" "item_shells"
 }
 {
-"spawnflags" "1792"
 "origin" "648 2072 -208"
 "classname" "item_spikes"
 }
@@ -1857,22 +1854,21 @@
 "classname" "item_health"
 }
 {
-////"spawnflags" "2048"
 "classname" "func_wall"
 "model" "*48"
 }
 {
-"spawnflags" "1792"
 "target" "t8"
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "model" "*49"
 }
 {
-"spawnflags" "1792"
 "targetname" "t8"
 "angle" "180"
-"origin" "1224 1728 112"
+"origin" "1224 1728 132"
 "classname" "misc_teleporter_dest"
+"speed" "-1"
 }
 {
 "light" "250"
@@ -1906,20 +1902,6 @@
 "origin" "2106 1730 -184"
 }
 {
-"targetname" "t9"
-////"spawnflags" "2048"
-"message" "This is the shareware version.\n\nPlease register!\n\nCall 1-800-idgames today!"
-"wait" "2"
-"classname" "trigger_multiple"
-"model" "*50"
-}
-{
-"targetname" "t9"
-"killtarget" "t9"
-"classname" "trigger_multiple"
-"model" "*51"
-}
-{
 "mangle" "20 120 0"
 "origin" "960 776 160"
 "classname" "info_intermission"
@@ -1940,17 +1922,6 @@
 "classname" "info_intermission"
 }
 {
-"classname" "trigger_multiple"
-"killtarget" "t10"
-"model" "*52"
-}
-{
-"classname" "func_wall"
-"spawnflags" "1792"
-"targetname" "t10"
-"model" "*53"
-}
-{
 "light" "200"
 "origin" "328 1728 40"
 "classname" "qlight"
@@ -1968,6 +1939,7 @@
 {
 "target" "t11"
 "classname" "trigger_teleport"
+"noise" "quake_misc/r_tele1.wav quake_misc/r_tele2.wav quake_misc/r_tele3.wav quake_misc/r_tele4.wav quake_misc/r_tele5.wav"
 "model" "*54"
 }
 {

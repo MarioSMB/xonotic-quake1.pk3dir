@@ -1,4 +1,4 @@
-quake
+quakeguy
 {
 	dpreflectcube textures/cubemap/cubemap
 	dp_glossexponentmod 8
