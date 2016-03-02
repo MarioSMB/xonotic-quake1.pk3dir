@@ -2,7 +2,7 @@
 9 8 10 0 // dog death1
 18 8 10 0 // dog death2
 27 5 10 1 // dog attack2
-33 15 10 1 // dog pain
+33 15 10 0 // dog pain
 49 11 10 1 // dog run
 61 7 10 1 // dog leap
 70 8 10 1 // dog idle
