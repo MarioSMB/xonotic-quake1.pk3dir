@@ -16,6 +16,8 @@ settemp_for_type all g_physics_clientselect 1
 settemp_for_type all g_physics_clientselect_options "quake"
 settemp_for_type all g_physics_clientselect_default quake
 settemp_for_type all sv_stepheight 22
+settemp_for_type all sv_gameplayfix_stepmultipletimes 0
+settemp_for_type all sv_jumpstep 0
 
 settemp_for_type all sv_player_maxs "16 16 32"
 settemp_for_type all sv_player_viewoffset "0 0 22"
