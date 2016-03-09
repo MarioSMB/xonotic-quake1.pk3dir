@@ -152,7 +152,7 @@
 {
 "wait" "5"
 "angle" "-2"
-"sounds" "2"
+//"sounds" "2"
 "targetname" "t1"
 "classname" "func_door"
 "noise2" "quake_plats/medplat1.wav"
@@ -243,7 +243,7 @@
 "origin" "-56 1464 -136"
 }
 {
-"sounds" "2"
+//"sounds" "2"
 "classname" "func_door"
 "noise2" "quake_plats/medplat1.wav"
 "noise1" "quake_plats/medplat2.wav"
@@ -430,7 +430,7 @@
 "classname" "qlight"
 }
 {
-"sounds" "3"
+//"sounds" "3"
 "wait" "-1"
 "speed" "600"
 "targetname" "t2"
@@ -746,7 +746,7 @@
 "targetname" "t4"
 "angle" "-2"
 "spawnflags" "5"
-"sounds" "2"
+//"sounds" "2"
 "model" "*15"
 }
 {
@@ -764,7 +764,7 @@
 "angle" "90"
 "targetname" "t5"
 "wait" "-1"
-"sounds" "2"
+//"sounds" "2"
 "model" "*17"
 }
 {
@@ -777,6 +777,9 @@
 {
 "classname" "item_invincible"
 "origin" "544 2480 -88"
+"respawntimestart" "1"
+"respawntime" "30"
+"respawntimejitter" "0.1"
 }
 {
 "classname" "qlight"
@@ -1371,7 +1374,10 @@
 {
 "classname" "item_strength"
 "origin" "256 1808 -40"
-"spawnflags" "1792"
+//"spawnflags" "1792"
+"respawntimestart" "1"
+"respawntime" "30"
+"respawntimejitter" "0.1"
 }
 {
 "classname" "monster_army"
