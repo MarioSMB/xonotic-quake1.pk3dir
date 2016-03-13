@@ -1789,6 +1789,7 @@
 "spawnflags" "1793"
 "origin" "-112 -568 360"
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail1.bsp"
 "ammo_nails" "50"
@@ -1796,12 +1797,14 @@
 {
 "origin" "1616 1424 176"
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail0.bsp"
 "ammo_nails" "25"
 }
 {
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "origin" "1656 1424 176"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail0.bsp"
@@ -1810,6 +1813,7 @@
 {
 "origin" "1696 1424 176"
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail0.bsp"
 "ammo_nails" "25"
@@ -2715,6 +2719,7 @@
 }
 {
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "origin" "1480 1104 68"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail1.bsp"
@@ -2722,6 +2727,7 @@
 }
 {
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "origin" "1760 -568 256"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail1.bsp"
@@ -2729,6 +2735,7 @@
 }
 {
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "origin" "1232 -1200 416"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail0.bsp"
@@ -2893,6 +2900,7 @@
 ////"spawnflags" "2048"
 "origin" "-240 -8 464"
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "item_pickupsound" "quake_weapons/lock4.wav"
 "model" "models/quake_items/b_nail0.bsp"
 "ammo_nails" "25"
@@ -3001,6 +3009,7 @@
 }
 {
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "origin" "-336 -80 470"
 "spawnflags" "768"
 "item_pickupsound" "quake_weapons/lock4.wav"
@@ -3140,6 +3149,7 @@
 }
 {
 "classname" "item_spikes"
+"pickup_anyway" "-1"
 "origin" "808 -632 192"
 "spawnflags" "2049"
 "item_pickupsound" "quake_weapons/lock4.wav"
@@ -3196,11 +3206,6 @@
 "angle" "225"
 "origin" "-368 -312 480"
 "classname" "monster_knight"
-}
-{
-"spawnflags" "1792"
-"classname" "func_wall"
-"model" "*61"
 }
 {
 "origin" "1810 274 200"
