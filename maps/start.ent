@@ -1391,29 +1391,48 @@
 "model" "*29"
 }
 {
+"classname" "item_armor_large"
 "origin" "1104 1728 16"
-"classname" "item_armorInv"
+"armorvalue" "100"
+"max_armorvalue" "100"
+"pickup_anyway" "-1"
+"item_pickupsound" "quake_items/armor1.wav"
+"model" "models/quake_items/armor_2.mdl"
 }
 {
 "origin" "1940 1728 -268"
 "classname" "weapon_qsupernailgun"
 }
 {
-"spawnflags" "1793"
+"spawnflags" "1"
 "origin" "1568 1712 -384"
 "classname" "item_spikes"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_nail1.bsp"
+"ammo_nails" "50"
+"pickup_anyway" "-1"
 }
 {
 "origin" "800 2320 64"
 "classname" "weapon_qrocketlauncher"
 }
 {
+"spawnflags" "1793"
 "origin" "1392 3120 208"
 "classname" "item_rockets"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_rock1.bsp"
+"ammo_rockets" "10"
+"pickup_anyway" "-1"
 }
 {
-"classname" "item_rockets"
+"spawnflags" "1793"
 "origin" "1664 3120 208"
+"classname" "item_rockets"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_rock1.bsp"
+"ammo_rockets" "10"
+"pickup_anyway" "-1"
 }
 {
 "origin" "-96 2368 64"
@@ -1423,41 +1442,66 @@
 "spawnflags" "1793"
 "origin" "-544 2240 112"
 "classname" "item_rockets"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_rock1.bsp"
+"ammo_rockets" "10"
+"pickup_anyway" "-1"
 }
 {
+"classname" "item_armor_big"
 "origin" "-528 2480 112"
-"classname" "item_armor2"
+"armorvalue" "50"
+"max_armorvalue" "100"
+"pickup_anyway" "-1"
+"item_pickupsound" "quake_items/armor1.wav"
+"model" "models/quake_items/armor_1.mdl"
 }
 {
 "origin" "-200 1552 80"
 "classname" "weapon_qsupershotgun"
 }
 {
-"spawnflags" "1793"
 "origin" "56 1536 80"
 "classname" "item_shells"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_shell0.bsp"
+"pickup_anyway" "-1"
+"ammo_shells" "20"
 }
 {
 "origin" "864 1232 -32"
 "classname" "weapon_qnailgun"
 }
 {
-"spawnflags" "1793"
+"spawnflags" "1"
 "origin" "736 1312 -32"
 "classname" "item_spikes"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_nail1.bsp"
+"ammo_nails" "50"
+"pickup_anyway" "-1"
 }
 {
+"spawnflags" "1024"
 "origin" "320 1312 -32"
-"classname" "item_health"
+"classname" "item_health_medium"
+"item_pickupsound" "items/r_item1.wav"
+"model" "models/quake_items/b_bh10.bsp"
+"pickup_anyway" "-1"
+"spawnflags" "1024"
+"max_health" "100"
+"health" "15"
 }
 {
+"spawnflags" "1024"
 "origin" "640 1312 -32"
-"classname" "item_health"
-}
-{
-"spawnflags" "1793"
-"origin" "944 1312 -32"
-"classname" "item_health"
+"classname" "item_health_medium"
+"item_pickupsound" "items/r_item1.wav"
+"model" "models/quake_items/b_bh10.bsp"
+"pickup_anyway" "-1"
+"spawnflags" "1024"
+"max_health" "100"
+"health" "15"
 }
 {
 "classname" "func_wall"
@@ -1796,14 +1840,20 @@
 "classname" "weapon_qlightning"
 }
 {
-"spawnflags" "1793"
-"origin" "1424 2952 208"
 "classname" "item_cells"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"origin" "1424 2952 208"
+"model" "models/quake_items/b_batt1.bsp"
+"pickup_anyway" "-1"
+"ammo_cells" "12"
 }
 {
 "classname" "item_cells"
+"item_pickupsound" "quake_weapons/lock4.wav"
 "origin" "1632 2952 208"
-"spawnflags" "1793"
+"model" "models/quake_items/b_batt1.bsp"
+"pickup_anyway" "-1"
+"ammo_cells" "12"
 }
 {
 "target" "t7"
@@ -1823,18 +1873,29 @@
 "model" "*46"
 }
 {
+"classname" "item_strength"
 "origin" "64 1872 -360"
-"classname" "item_artifact_super_damage"
+//"spawnflags" "1792"
+"respawntimestart" "1"
+"respawntime" "30"
+"respawntimejitter" "0.1"
 }
 {
 "spawnflags" "1793"
 "origin" "-264 1864 -384"
 "classname" "item_rockets"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_rock1.bsp"
+"ammo_rockets" "10"
+"pickup_anyway" "-1"
 }
 {
-"spawnflags" "1793"
-"origin" "-200 1912 -384"
 "classname" "item_cells"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"origin" "-200 1912 -384"
+"model" "models/quake_items/b_batt1.bsp"
+"pickup_anyway" "-1"
+"ammo_cells" "12"
 }
 {
 "classname" "func_wall"
@@ -1843,15 +1904,19 @@
 {
 "origin" "536 2144 -224"
 "classname" "item_shells"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_shell0.bsp"
+"pickup_anyway" "-1"
+"ammo_shells" "20"
 }
 {
+"spawnflags" "1"
 "origin" "648 2072 -208"
 "classname" "item_spikes"
-}
-{
-"spawnflags" "1794"
-"origin" "144 2192 -304"
-"classname" "item_health"
+"item_pickupsound" "quake_weapons/lock4.wav"
+"model" "models/quake_items/b_nail1.bsp"
+"ammo_nails" "50"
+"pickup_anyway" "-1"
 }
 {
 "classname" "func_wall"
