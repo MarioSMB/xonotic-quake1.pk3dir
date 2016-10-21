@@ -1351,6 +1351,13 @@
 "classname" "qlight"
 }
 {
+"classname" "target_changelevel"
+"origin" "2016 1770 -184"
+"targetname" "e4m1"
+"chmap" "e4m1"
+"spawnflags" "2"
+}
+{
 "target" "e4m1"
 "classname" "trigger_multiple"
 "model" "*27"
